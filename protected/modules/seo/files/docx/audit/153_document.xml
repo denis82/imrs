@@ -1,0 +1,5871 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 wp14">
+<w:body>
+<w:p w:rsidR="00081916" w:rsidRPr="00C9030C" w:rsidRDefault="00081916" w:rsidP="00C9030C">
+<w:pPr>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:sz w:val="40"/>
+<w:szCs w:val="40"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00C9030C">
+<w:rPr>
+<w:sz w:val="40"/>
+<w:szCs w:val="40"/>
+</w:rPr>
+<w:t>Мини-аудит сайта www.kompensator.ru (от 18.04.2014)</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRDefault="00081916">
+<w:r>
+<w:t xml:space="preserve">Мини-аудит позволяет быстро определить основные характеристики и настройки сервера, сайта и страниц, отражает лишь базовые характеристики сайта. Выявляет серьезные ошибки и определяет необходимый объем работ по настройке сайта под поисковые системы в процессе активного продвижения сайта. Цветом отмечены </w:t>
+</w:r>
+<w:r w:rsidRPr="005831F7">
+<w:rPr>
+<w:color w:val="00B050"/>
+</w:rPr>
+<w:t>положительные</w:t>
+</w:r>
+<w:r>
+<w:t xml:space="preserve"> и </w:t>
+</w:r>
+<w:r w:rsidRPr="005831F7">
+<w:rPr>
+<w:color w:val="FF0000"/>
+</w:rPr>
+<w:t>отрицательные</w:t>
+</w:r>
+<w:r>
+<w:t xml:space="preserve"> результаты аудита.</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRDefault="00081916">
+<w:r>
+<w:t>Аудит основан на официальных рекомендациях поисковых систем к сайтам: </w:t>
+</w:r>
+<w:r>
+<w:br/>
+<w:t xml:space="preserve">Яндекс – </w:t>
+</w:r>
+<w:hyperlink r:id="rId8" w:history="1">
+<w:r w:rsidRPr="00D3187E">
+<w:rPr>
+<w:rStyle w:val="af"/>
+</w:rPr>
+<w:t>http://help.yandex.ru/webmaster/</w:t>
+</w:r>
+</w:hyperlink>
+<w:r>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="00C9030C">
+<w:br/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>Google</w:t>
+</w:r>
+<w:r w:rsidRPr="00C9030C">
+<w:t xml:space="preserve"> – </w:t>
+</w:r>
+<w:hyperlink r:id="rId9" w:history="1">
+<w:r w:rsidRPr="00D3187E">
+<w:rPr>
+<w:rStyle w:val="af"/>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>https</w:t>
+</w:r>
+<w:r w:rsidRPr="00D3187E">
+<w:rPr>
+<w:rStyle w:val="af"/>
+</w:rPr>
+<w:t>://</w:t>
+</w:r>
+<w:r w:rsidRPr="00D3187E">
+<w:rPr>
+<w:rStyle w:val="af"/>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>support</w:t>
+</w:r>
+<w:r w:rsidRPr="00D3187E">
+<w:rPr>
+<w:rStyle w:val="af"/>
+</w:rPr>
+<w:t>.</w:t>
+</w:r>
+<w:r w:rsidRPr="00D3187E">
+<w:rPr>
+<w:rStyle w:val="af"/>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>google</w:t>
+</w:r>
+<w:r w:rsidRPr="00D3187E">
+<w:rPr>
+<w:rStyle w:val="af"/>
+</w:rPr>
+<w:t>.</w:t>
+</w:r>
+<w:r w:rsidRPr="00D3187E">
+<w:rPr>
+<w:rStyle w:val="af"/>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>com</w:t>
+</w:r>
+<w:r w:rsidRPr="00D3187E">
+<w:rPr>
+<w:rStyle w:val="af"/>
+</w:rPr>
+<w:t>/</w:t>
+</w:r>
+<w:r w:rsidRPr="00D3187E">
+<w:rPr>
+<w:rStyle w:val="af"/>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>webmasters</w:t>
+</w:r>
+<w:r w:rsidRPr="00D3187E">
+<w:rPr>
+<w:rStyle w:val="af"/>
+</w:rPr>
+<w:t>/</w:t>
+</w:r>
+</w:hyperlink>
+<w:r>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:br/>
+<w:t xml:space="preserve">а так же на: </w:t>
+</w:r>
+<w:r>
+<w:br/>
+<w:t xml:space="preserve">Лицензии на использование поисковой системы Яндекс – </w:t>
+</w:r>
+<w:hyperlink r:id="rId10" w:history="1">
+<w:r w:rsidRPr="00D3187E">
+<w:rPr>
+<w:rStyle w:val="af"/>
+</w:rPr>
+<w:t>http://legal.yandex.ru/termsofuse/</w:t>
+</w:r>
+</w:hyperlink>
+<w:r>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:br/>
+<w:t xml:space="preserve">и Условии предоставления услуг поиска </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>Google</w:t>
+</w:r>
+<w:r w:rsidRPr="00C9030C">
+<w:t xml:space="preserve"> –</w:t>
+</w:r>
+<w:r>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:hyperlink r:id="rId11" w:history="1">
+<w:r w:rsidRPr="00D3187E">
+<w:rPr>
+<w:rStyle w:val="af"/>
+</w:rPr>
+<w:t>http://www.google.com/intl/ru/policies/terms/</w:t>
+</w:r>
+</w:hyperlink>
+<w:r>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRPr="00C9030C" w:rsidRDefault="00081916">
+<w:pPr>
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:t>1. Базовая информация</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:br/>
+<w:t xml:space="preserve">1.1 </w:t>
+</w:r>
+<w:r w:rsidRPr="00C9030C">
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:t>Информация о домене, хостинге и системе управления сайта</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRPr="00413EB3" w:rsidRDefault="00081916" w:rsidP="003E73FE">
+<w:r w:rsidRPr="003E73FE">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Домен зарегистрирован</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="1"/>
+</w:r>
+<w:r w:rsidRPr="003E73FE">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:t w:space="preserve">2005-09-30 (Возраст: 08 г., 06 мес., 19 дн.)</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+<w:r w:rsidRPr="003E73FE">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Хостинг сайта</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="2"/>
+</w:r>
+<w:r w:rsidRPr="003E73FE">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>: </w:t>
+</w:r>
+<w:r w:rsidRPr="003E73FE">
+<w:t xml:space="preserve">   </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:color w:val="FF0000"/>
+</w:rPr>
+<w:t>не определено</w:t>
+</w:r>
+<w:r w:rsidRPr="003E73FE">
+<w:br/>
+</w:r>
+<w:r w:rsidRPr="00403180">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Предположение о системе управления сайтом (CMS)</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="3"/>
+</w:r>
+<w:r w:rsidRPr="00403180">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:color w:val="00B050"/>
+</w:rPr>
+<w:t w:space="preserve">1C:Битрикс</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRPr="00C9030C" w:rsidRDefault="00081916" w:rsidP="003E73FE">
+<w:pPr>
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:t xml:space="preserve">1.2 </w:t>
+</w:r>
+<w:r w:rsidRPr="00C9030C">
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:t>Анализ настроек сервера под поисковые системы</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRPr="00BE6085" w:rsidRDefault="00081916" w:rsidP="003E73FE">
+<w:r w:rsidRPr="00CE5B14">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Файл инструкций для поисковых систем robots.txt</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="4"/>
+</w:r>
+<w:r w:rsidRPr="00CE5B14">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:color w:val="00B050"/>
+</w:rPr>
+<w:t w:space="preserve">есть</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+<w:r w:rsidRPr="00CE5B14">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Карта сайта</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve"> (sitemap.xml)</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="5"/>
+</w:r>
+<w:r w:rsidRPr="00CE5B14">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:color w:val="FF0000"/>
+</w:rPr>
+<w:t>нет</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+<w:r w:rsidRPr="00CE5B14">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Обработка ошибки 404</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="6"/>
+</w:r>
+<w:r w:rsidRPr="00CE5B14">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:color w:val="00B050"/>
+</w:rPr>
+<w:t w:space="preserve">есть</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Ответ сервера на запрос даты последней модификации документа</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="7"/>
+</w:r>
+<w:r w:rsidRPr="00CE5B14">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:color w:val="FF0000"/>
+</w:rPr>
+<w:t>нет</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRDefault="00081916"/>
+<w:p w:rsidR="00081916" w:rsidRPr="006C25A1" w:rsidRDefault="00081916" w:rsidP="003E73FE">
+<w:pPr>
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:lastRenderedPageBreak/>
+<w:t xml:space="preserve">2. </w:t>
+</w:r>
+<w:r w:rsidRPr="006C25A1">
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:t>Информация о настройках главной страницы сайта</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRPr="00BE6085" w:rsidRDefault="00081916" w:rsidP="00B4740D">
+<w:r w:rsidRPr="006C25A1">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Заголовок страницы (</w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r w:rsidRPr="006C25A1">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Title</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r w:rsidRPr="006C25A1">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>)</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="8"/>
+</w:r>
+<w:r w:rsidRPr="006C25A1">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:t w:space="preserve">ЗАВОД ОАО «НПП «КОМПЕНСАТОР»</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+<w:r w:rsidRPr="006C25A1">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">Мета-тег </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r w:rsidRPr="006C25A1">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>description</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="9"/>
+</w:r>
+<w:r w:rsidRPr="006C25A1">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:t w:space="preserve">ЗАВОД ОАО «НПП «КОМПЕНСАТОР»</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+<w:r w:rsidRPr="006C25A1">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">Мета-тег </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r w:rsidRPr="006C25A1">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>keywords</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="10"/>
+</w:r>
+<w:r w:rsidRPr="006C25A1">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:t w:space="preserve">компенсатор</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+<w:r w:rsidRPr="006C25A1">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Заголовки</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve"> текста</w:t>
+</w:r>
+<w:r w:rsidRPr="006C25A1">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve"> H1-H6</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="11"/>
+</w:r>
+<w:r w:rsidRPr="006C25A1">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve"> на главной странице: </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:color w:val="00B050"/>
+</w:rPr>
+<w:t w:space="preserve">есть</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Атрибуты alt и title иллюстраций</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="12"/>
+</w:r>
+<w:r w:rsidRPr="00AB378E">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve"> на главной странице: </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:color w:val="00B050"/>
+</w:rPr>
+<w:t w:space="preserve">есть</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRPr="006C25A1" w:rsidRDefault="00081916" w:rsidP="00B4740D">
+<w:pPr>
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="006C25A1">
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:t>3. Формальные признаки сайта и системы статистики и аналитики</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRDefault="00081916" w:rsidP="00B4740D">
+<w:r w:rsidRPr="00244E35">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>ТИЦ</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="13"/>
+</w:r>
+<w:r w:rsidRPr="00AB378E">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:t w:space="preserve">50</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r w:rsidRPr="00244E35">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>PageRank</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="14"/>
+</w:r>
+<w:r w:rsidRPr="00244E35">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:t w:space="preserve">1</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+<w:r w:rsidRPr="00244E35">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Яндекс-каталог</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="15"/>
+</w:r>
+<w:r w:rsidRPr="00244E35">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:color w:val="FF0000"/>
+</w:rPr>
+<w:t>не зарегистрирован</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+<w:r w:rsidRPr="00244E35">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Яндекс-метрика</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="16"/>
+</w:r>
+<w:r w:rsidRPr="00244E35">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:color w:val="00B050"/>
+</w:rPr>
+<w:t w:space="preserve">код метрики найден</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+<w:r w:rsidRPr="00244E35">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Яндекс-вебмастер</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="17"/>
+</w:r>
+<w:r w:rsidRPr="00244E35">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:color w:val="FF0000"/>
+</w:rPr>
+<w:t>код подтверждения не найден</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r w:rsidRPr="00244E35">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Google-analytics</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="18"/>
+</w:r>
+<w:r w:rsidRPr="00244E35">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:color w:val="FF0000"/>
+</w:rPr>
+<w:t>код аналитики не найден</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r w:rsidRPr="00244E35">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Google-webmaster</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="19"/>
+</w:r>
+<w:r w:rsidRPr="00244E35">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:color w:val="FF0000"/>
+</w:rPr>
+<w:t>код подтверждения не найден</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+<w:r w:rsidRPr="00244E35">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Вероятность того, что сайт продвигался ранее</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="20"/>
+</w:r>
+<w:r w:rsidRPr="00244E35">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:color w:val="00B050"/>
+</w:rPr>
+<w:t w:space="preserve">40%</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRDefault="00081916" w:rsidP="003E73FE">
+<w:r>
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:br w:type="page"/>
+<w:t>4</w:t>
+</w:r>
+<w:r w:rsidRPr="006C25A1">
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:t xml:space="preserve">. </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:t>Информация об индексации сайта, входящих и исходящих ссылках</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRDefault="00081916" w:rsidP="003E73FE">
+<w:r w:rsidRPr="00876786">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Количество проиндексированных страниц</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="21"/>
+</w:r>
+<w:r w:rsidRPr="00876786">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:t w:space="preserve">208</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Кол-во зеркал домена</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="22"/>
+</w:r>
+<w:r w:rsidRPr="00876786">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:t w:space="preserve">0</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+<w:r w:rsidRPr="00876786">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Ко</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">л-во доменов на том же </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>ip</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="23"/>
+</w:r>
+<w:r w:rsidRPr="00876786">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:t w:space="preserve">0</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Количество ссылок на домен</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="24"/>
+</w:r>
+<w:r w:rsidRPr="00876786">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:t w:space="preserve">91</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Кол-во доноров</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="25"/>
+</w:r>
+<w:r w:rsidRPr="00876786">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:t w:space="preserve">47</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">Кол-во найденных </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>анкоров</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="26"/>
+</w:r>
+<w:r w:rsidRPr="00876786">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:t w:space="preserve">18</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Исходящие ссылки домена</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="27"/>
+</w:r>
+<w:r w:rsidRPr="00876786">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:t w:space="preserve">464</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+<w:r w:rsidRPr="00876786">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>Кол-во доменов, н</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>а которые ссылается данный хост</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="28"/>
+</w:r>
+<w:r w:rsidRPr="00876786">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:t w:space="preserve">9</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">Кол-во исходящих </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>анкоров</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:footnoteReference w:id="29"/>
+</w:r>
+<w:r w:rsidRPr="00876786">
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r>
+<w:t w:space="preserve">6</w:t>
+</w:r>
+<w:r>
+<w:br/>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRDefault="00081916" w:rsidP="00376509">
+<w:r>
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:t>5</w:t>
+</w:r>
+<w:r w:rsidRPr="006C25A1">
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:t xml:space="preserve">. </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:t>Предположение о продвигаемых ключевых словах</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:footnoteReference w:id="30"/>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRPr="000D76DA" w:rsidRDefault="000D76DA" w:rsidP="00376509">
+<w:pPr>
+<w:rPr>
+<w:lang w:val="en-US"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t w:space="preserve">
+</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRDefault="00081916" w:rsidP="00376509">
+<w:pPr>
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:br w:type="page"/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:t>6</w:t>
+</w:r>
+<w:r w:rsidRPr="006C25A1">
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:t xml:space="preserve">. </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:t>Текущие позиции сайта в поисковых системах</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:footnoteReference w:id="31"/>
+</w:r>
+</w:p>
+<w:tbl>
+<w:tblPr>
+<w:tblW w:w="8800" w:type="dxa"/>
+<w:tblInd w:w="-106" w:type="dxa"/>
+<w:tblLook w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="0"/>
+</w:tblPr>
+<w:tblGrid>
+<w:gridCol w:w="4700"/>
+<w:gridCol w:w="2200"/>
+</w:tblGrid>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>Запрос</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>Яндекс</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>компенсатор линзовый осевой</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>компенсатор сильфонный осевой цена</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>компенсатор сильфонный фланцевый</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>компенсатор сильфонный цена</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>компенсационные устройства</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>осевой сильфонный компенсатор цена</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>сильфонные компенсаторы цена</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>сильфонный компенсатор цена</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>сильфонный осевой компенсатор под приварку</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>трубы</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>трубопровод</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>трубопроводная арматура</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>трубозапорная арматура</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>система трубопроводная</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>газовыхлоп</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>патрубок</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>система газовыхлопа</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>теплосеть</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>газопровод</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>нефтепровод</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>судовое снабжение</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>водопровод</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>клинкет</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>машинное отделение</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>трюм</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>резервуар</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>междудонное пространство</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>трубопроводная термоизоляция</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>тэц</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>гэс</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>аэс</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>компенсирующие устройства</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>компенсатор</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>1</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>универсальные компенсаторы</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>5</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>компенсатор карданный</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>7</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>компенсаторы</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>7</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>производство компенсаторов</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>7</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>компенсатор теплосеть</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="00B050"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>10</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>компенсаторы сильфонные</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FFFF00"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>11</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>осевые компенсаторы</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FFFF00"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>22</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>компенсаторы осевые</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FFFF00"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>23</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>расчет сильфонного компенсатора</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FFFF00"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>29</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>компенсаторы сильфонные осевые</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FFFF00"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>30</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>компенсаторы трубопроводов</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FFFF00"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>30</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>расчет сильфонных компенсаторов</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FFFF00"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>30</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>компенсаторы сильфонные универсальные</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FFFF00"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>32</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>сильфонные компенсаторы</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FFFF00"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>32</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>компенсатор сильфонный</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FFFF00"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>33</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>сильфонный компенсатор</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FFFF00"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>33</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>осевой сильфонный компенсатор</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FFFF00"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>35</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>осевой компенсатор</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FFFF00"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>39</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>сильфонная техника</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FFFF00"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>39</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>сильфонные компенсаторы прайс</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FFFF00"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>40</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>компенсатор осевой</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FFFF00"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>44</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>сильфонный компенсатор ску</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FFFF00"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>45</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>расчет компенсатора</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FFFF00"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>46</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>сильфонный осевой компенсатор</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FFFF00"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>46</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>сильфонный компенсатор в ппу</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FFFF00"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>48</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>сильфонный компенсатор стоимость</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FFFF00"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>49</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>сильфонное компенсирующее устройство</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FFFF00"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>50</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>сильфон</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FFFF00"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>50</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>сильфонное компенсационное устройство</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FF0000"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>53</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>сильфонный компенсатор купить</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FF0000"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>57</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>компенсатор сильфонный осевой ксо</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FF0000"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>63</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>компенсатор сильфонный осевой фланцевый</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FF0000"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>76</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>сильфонный компенсатор ксо</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FF0000"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>76</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>купить сильфонный компенсатор</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FF0000"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>81</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>расчет компенсаторов</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FF0000"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>88</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr>
+<w:trPr>
+<w:trHeight w:val="300"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4700" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>компенсатор сильфонный купить</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="2200" w:type="dxa"/>
+<w:tcBorders>
+<w:top w:val="nil"/>
+<w:left w:val="nil"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="000000" w:fill="FF0000"/>
+<w:noWrap/>
+<w:vAlign w:val="bottom"/>
+</w:tcPr>
+<w:p>
+<w:pPr>
+<w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+<w:color w:val="000000"/>
+<w:lang w:eastAsia="ru-RU"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>92</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+</w:tbl>
+<w:p w:rsidR="00081916" w:rsidRDefault="00081916" w:rsidP="003F4CB8">
+<w:r>
+<w:t xml:space="preserve">(Таблица 1: доступные к определению позиции сайта в поисковых системах Яндекс и </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:t>Google</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:t>)</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRDefault="00081916" w:rsidP="003F4CB8">
+<w:pPr>
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:br w:type="page"/>
+<w:t>7</w:t>
+</w:r>
+<w:r w:rsidRPr="006C25A1">
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:t xml:space="preserve">. </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:sz w:val="28"/>
+<w:szCs w:val="28"/>
+</w:rPr>
+<w:t>Рекомендации по результатам исследования</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRDefault="00081916" w:rsidP="00AD66A6">
+<w:pPr>
+<w:spacing w:line="240" w:lineRule="auto"/>
+</w:pPr>
+<w:r>
+<w:t>Сайт является достойным, для продвижения и достижения позиций в топ10 поисковых систем, однако рекомендуем обратить внимание на необходимость настройки (если сайтом занимаются и осуществляют активное продвижение, проверить на предмет халатного отношения к работе): </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRPr="00AD66A6" w:rsidRDefault="00081916" w:rsidP="00602D8F">
+<w:pPr>
+<w:pStyle w:val="af0"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="2"/>
+</w:numPr>
+<w:spacing w:line="240" w:lineRule="auto"/>
+<w:ind w:left="714" w:hanging="357"/>
+</w:pPr>
+<w:r w:rsidRPr="00AD66A6">
+<w:t>Ответ сервера на запрос даты последней модификации документа;</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRPr="00AD66A6" w:rsidRDefault="00081916" w:rsidP="00602D8F">
+<w:pPr>
+<w:pStyle w:val="af0"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="2"/>
+</w:numPr>
+<w:spacing w:line="240" w:lineRule="auto"/>
+<w:ind w:left="714" w:hanging="357"/>
+</w:pPr>
+<w:r>
+<w:t>Заголов</w:t>
+</w:r>
+<w:r w:rsidRPr="00AD66A6">
+<w:t>к</w:t>
+</w:r>
+<w:r>
+<w:t>и страниц</w:t>
+</w:r>
+<w:r w:rsidRPr="00AD66A6">
+<w:t xml:space="preserve"> (</w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r w:rsidRPr="00AD66A6">
+<w:t>Title</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r w:rsidRPr="00AD66A6">
+<w:t>);</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRPr="00AD66A6" w:rsidRDefault="00081916" w:rsidP="00602D8F">
+<w:pPr>
+<w:pStyle w:val="af0"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="2"/>
+</w:numPr>
+<w:spacing w:line="240" w:lineRule="auto"/>
+<w:ind w:left="714" w:hanging="357"/>
+</w:pPr>
+<w:proofErr w:type="gramStart"/>
+<w:r w:rsidRPr="00AD66A6">
+<w:t>Мета-тег</w:t>
+</w:r>
+<w:r>
+<w:t>и</w:t>
+</w:r>
+<w:proofErr w:type="gramEnd"/>
+<w:r w:rsidRPr="00AD66A6">
+<w:t xml:space="preserve">   </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r w:rsidRPr="00AD66A6">
+<w:t>description</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r w:rsidRPr="00AD66A6">
+<w:t>;</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRPr="00AD66A6" w:rsidRDefault="00081916" w:rsidP="00602D8F">
+<w:pPr>
+<w:pStyle w:val="af0"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="2"/>
+</w:numPr>
+<w:spacing w:line="240" w:lineRule="auto"/>
+<w:ind w:left="714" w:hanging="357"/>
+</w:pPr>
+<w:proofErr w:type="gramStart"/>
+<w:r w:rsidRPr="00AD66A6">
+<w:t>Мета-тег</w:t>
+</w:r>
+<w:r>
+<w:t>и</w:t>
+</w:r>
+<w:proofErr w:type="gramEnd"/>
+<w:r w:rsidRPr="00AD66A6">
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r w:rsidRPr="00AD66A6">
+<w:t>keywords</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r w:rsidRPr="00AD66A6">
+<w:t>;</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRPr="00AD66A6" w:rsidRDefault="00081916" w:rsidP="00602D8F">
+<w:pPr>
+<w:pStyle w:val="af0"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="2"/>
+</w:numPr>
+<w:spacing w:line="240" w:lineRule="auto"/>
+<w:ind w:left="714" w:hanging="357"/>
+</w:pPr>
+<w:r w:rsidRPr="00AD66A6">
+<w:t>Яндекс-каталог;</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRPr="00AD66A6" w:rsidRDefault="00081916" w:rsidP="00602D8F">
+<w:pPr>
+<w:pStyle w:val="af0"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="2"/>
+</w:numPr>
+<w:spacing w:line="240" w:lineRule="auto"/>
+<w:ind w:left="714" w:hanging="357"/>
+</w:pPr>
+<w:r w:rsidRPr="00AD66A6">
+<w:t>Яндекс-метрика;</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRPr="00AD66A6" w:rsidRDefault="00081916" w:rsidP="00602D8F">
+<w:pPr>
+<w:pStyle w:val="af0"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="2"/>
+</w:numPr>
+<w:spacing w:line="240" w:lineRule="auto"/>
+<w:ind w:left="714" w:hanging="357"/>
+</w:pPr>
+<w:r w:rsidRPr="00AD66A6">
+<w:t>Яндекс-вебмастер;</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRPr="00AD66A6" w:rsidRDefault="00081916" w:rsidP="00602D8F">
+<w:pPr>
+<w:pStyle w:val="af0"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="2"/>
+</w:numPr>
+<w:spacing w:line="240" w:lineRule="auto"/>
+<w:ind w:left="714" w:hanging="357"/>
+</w:pPr>
+<w:proofErr w:type="spellStart"/>
+<w:r w:rsidRPr="00AD66A6">
+<w:t>Google-analytics</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r w:rsidRPr="00AD66A6">
+<w:t>;</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRPr="00AD66A6" w:rsidRDefault="00081916" w:rsidP="00602D8F">
+<w:pPr>
+<w:pStyle w:val="af0"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="2"/>
+</w:numPr>
+<w:spacing w:line="240" w:lineRule="auto"/>
+<w:ind w:left="714" w:hanging="357"/>
+</w:pPr>
+<w:proofErr w:type="spellStart"/>
+<w:r w:rsidRPr="00AD66A6">
+<w:t>Google-webmaster</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r w:rsidRPr="00AD66A6">
+<w:t>;</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRPr="00AD66A6" w:rsidRDefault="00081916" w:rsidP="00602D8F">
+<w:pPr>
+<w:pStyle w:val="af0"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="2"/>
+</w:numPr>
+<w:spacing w:line="240" w:lineRule="auto"/>
+<w:ind w:left="714" w:hanging="357"/>
+</w:pPr>
+<w:r w:rsidRPr="00AD66A6">
+<w:t>Исходящие ссылки домена;</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRPr="00AD66A6" w:rsidRDefault="00081916" w:rsidP="00602D8F">
+<w:pPr>
+<w:pStyle w:val="af0"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="2"/>
+</w:numPr>
+<w:spacing w:line="240" w:lineRule="auto"/>
+<w:ind w:left="714" w:hanging="357"/>
+</w:pPr>
+<w:r w:rsidRPr="00AD66A6">
+<w:t>Текущие позиции сайта в поисковых системах.</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRPr="00AD66A6" w:rsidRDefault="00081916" w:rsidP="00E0663E">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>Обращаем ваше внимание на то, что результаты настоящего и бесплатного мини-аудита не рекомендуется использовать как инструкции к действию или как техническое задание для работы по продвижению сайта. Любое продвижение сайта в поисковых системах всегда включает в себя исследование и работу над более чем 80 факторами в комплекс</w:t>
+</w:r>
+<w:proofErr w:type="gramStart"/>
+<w:r>
+<w:t>е(</w:t>
+</w:r>
+<w:proofErr w:type="gramEnd"/>
+<w:r>
+<w:t>при этом поисковые алгоритмы ранжирования содержат не менее 400 факторов являющихся основой для определения позиций сайта по тому или иному поисковому запросу).</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRDefault="00081916" w:rsidP="003F4CB8">
+<w:r>
+<w:t>Мы признаем, что настоящий аудит является подготовительным и не показывает «картины в целом» ввиду того, что не включает в себя серьезные и трудоемкие исследования и группы работ: </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRDefault="00081916" w:rsidP="00B4740D">
+<w:pPr>
+<w:pStyle w:val="af0"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+</w:pPr>
+<w:r>
+<w:t>Постановка целей и методов достижения позиций в топ10 (определение целесообразного, а значит экономичного в процессе и результативного по окончании работ, семантического ядра сайта;</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRDefault="00081916" w:rsidP="00B4740D">
+<w:pPr>
+<w:pStyle w:val="af0"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+</w:pPr>
+<w:r>
+<w:t>Тщательное исследование внутренней оптимизации сайта (от настроек сервера, сайта и до конкретных посадочных (продающих) страниц;</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRDefault="00081916" w:rsidP="00B4740D">
+<w:pPr>
+<w:pStyle w:val="af0"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+</w:pPr>
+<w:r>
+<w:t>Определение уникальности и полноты содержания сайта (тексты, фото, видео и т.п.), а также новизну и регулярность его обновления;</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRDefault="00081916" w:rsidP="00B4740D">
+<w:pPr>
+<w:pStyle w:val="af0"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+</w:pPr>
+<w:r>
+<w:t>Внешняя оптимизация сайта (работа по естественным бесплатным или постоянно размещаемым ссылкам, упоминаниям в блогах и на форумах, рекомендациям в социальных сетях и т.п.);</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRDefault="00081916" w:rsidP="00B4740D">
+<w:pPr>
+<w:pStyle w:val="af0"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="1"/>
+</w:numPr>
+</w:pPr>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:t>Юзабилити</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:t xml:space="preserve"> (</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>usability</w:t>
+</w:r>
+<w:r w:rsidRPr="00AD66A6">
+<w:t xml:space="preserve"> - </w:t>
+</w:r>
+<w:r>
+<w:t xml:space="preserve">удобство использования сайта), а так же улучшение продающих качеств сайта влияющих на экономичность и эффективность работы по продвижению в поисковых системах и рекламе в интернет (контекстная и </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:t>медийная</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:t xml:space="preserve"> реклама) в целом.</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00081916" w:rsidRPr="00B4740D" w:rsidRDefault="00081916" w:rsidP="005B450E">
+<w:r>
+<w:t xml:space="preserve">Указанные пять групп работ по исследованию и подготовке рекомендаций по каждому включенному в них пункту выполняются в рамках работы по оптимизации сайта или на стадии активного его продвижения в поисковых системах </w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:rPr>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>Yandex</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r w:rsidRPr="005B450E">
+<w:t>.</w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:rPr>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>ru</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:t xml:space="preserve">, </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>Google</w:t>
+</w:r>
+<w:r w:rsidRPr="005B450E">
+<w:t>.</w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:rPr>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>ru</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r w:rsidRPr="005B450E">
+<w:t xml:space="preserve"> и </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>Mail</w:t>
+</w:r>
+<w:r w:rsidRPr="005B450E">
+<w:t>.</w:t>
+</w:r>
+<w:proofErr w:type="spellStart"/>
+<w:r>
+<w:rPr>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:t>ru</w:t>
+</w:r>
+<w:proofErr w:type="spellEnd"/>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="ae"/>
+<w:lang w:val="en-US"/>
+</w:rPr>
+<w:footnoteReference w:id="32"/>
+</w:r>
+<w:r>
+<w:t>.</w:t>
+</w:r>
+</w:p>
+<w:sectPr w:rsidR="00081916" w:rsidRPr="00B4740D" w:rsidSect="00003C53">
+<w:footerReference w:type="default" r:id="rId12"/>
+<w:pgSz w:w="11906" w:h="16838"/>
+<w:pgMar w:top="1134" w:right="850" w:bottom="1134" w:left="1701" w:header="708" w:footer="708" w:gutter="0"/>
+<w:cols w:space="708"/>
+<w:docGrid w:linePitch="360"/>
+</w:sectPr>
+</w:body>
+</w:document>

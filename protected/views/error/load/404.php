@@ -1,0 +1,1 @@
+<div class="alert alert-danger alert-styled-left alert-bordered">Данные не найдены.</div>

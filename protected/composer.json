@@ -1,0 +1,33 @@
+{
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "http://packages.phundament.com"
+		}
+	],
+    "name": "tech-seo-experts/seo",
+    "description": "SEO Analysing Module",
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "Ivan Martianov",
+            "email": "ivan@seo-experts.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "yiisoft/yii": "1.1.*",
+        "phpoffice/phpexcel": "~1.8",
+		"malyshev/yii-debug-toolbar": "dev-master",
+		"php-console/php-console": "dev-master",
+		"guzzlehttp/guzzle": "~5.0",
+		"phpoffice/phpword": "~0.13",
+		"nixsolutions/yandex-php-library": "~1.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "config": "./"
+        }
+    },
+    "scripts": {}
+}

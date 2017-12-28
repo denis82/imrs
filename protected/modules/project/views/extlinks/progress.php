@@ -1,0 +1,1 @@
+<span class="icon-spinner4 spinner"></span> &nbsp; Идет поиск. <?= $total ? 'Выполнено ' . $total : '' ?>

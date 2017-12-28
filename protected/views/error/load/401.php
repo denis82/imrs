@@ -1,0 +1,1 @@
+<div class="alert alert-danger alert-styled-left alert-bordered">Ошибка доступа к данным.</div>
