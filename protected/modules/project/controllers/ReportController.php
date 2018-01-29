@@ -53,29 +53,40 @@ class ReportController extends CSiteController
     
     public function actionTest() {
 
-//         //$projectModel = CrawlerPage::model()->findAll('domain_id=60056') ;
-//         foreach (Sitemap::model()->findAllByAttributes(array('domain_id' => '60053'), array('order' => 'url asc')) as $el) {
-//                 $xml_data['struct']['sitemap'][] = $el->url;
-//         }
-// 
-//         foreach (CrawlerPage::model()->findAllByAttributes(array('domain_id' => '60053'), array('order' => 'url asc')) as $el) {
-//                 $xml_data['struct']['crawler'][] = $el->url;
-//         }
-// 
-//         $check = YandexStructureCheck::model()->findByAttributes(array('domain_id' => '60053'), array('order' => 'id desc'));
-//         foreach (YandexStructure::model()->findAllByAttributes(array('check_id' => $check->id), array('order' => 'url asc')) as $el) {
-//                 $xml_data['struct']['yandex'][] = $el->url;
-//                 
-//         
-//         }
-
-       // file_get_contents("http://www.yiiframework.com");
-       // var_dump($http_response_header);
-        echo "<pre>";
-        var_dump($xml_data);
-        echo "</pre>";
+    //$tr = DomainsHeaders::model()->findByAttributes(array('domain_id' => 60106));
+    $tr = new ValidateUrl();
+   // $tr->current_www = 'www'; // если редирект настроен
+   // $tr->current_https = 'https'; // если редирект настроен 
+    //$tr->save();
+    
+    var_dump ( $tr->http() );
+    //var_dump ( $tr->protocol );
+	//print_r ( Robots::model()->test ); 
     }
     
+        public function status($url) {
+        
+	  $out = false;
+          if( $curl = curl_init() ) {
+	      curl_setopt($curl,CURLOPT_URL,$url);
+	      curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
+	      curl_setopt($curl,CURLOPT_NOBODY,true);
+	      curl_setopt($curl,CURLOPT_HEADER,true);
+	      $out = curl_exec($curl);
+	      curl_close($curl);
+	  }
+
+	  if ($out) {
+		  $m = array();
+
+		  if (preg_match( "#HTTP/[0-9\.]+\s+([0-9]+)#", $out, $m )) {
+		      $res = intval($m[1]);
+		  }
+	  } 
+	
+	return $res;
+        
+    }
     
     
     public function actionDocx($id){

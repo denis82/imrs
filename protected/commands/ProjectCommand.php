@@ -9,6 +9,9 @@ class ProjectCommand extends CConsoleCommand {
 	private $queue = null;
 
 	private $log_n = 0;
+	
+	private $robots_www; // флаг для проверки адресов по умолчанию с www/без www
+    	private $robots_http; // флаг для проверки адресов по умолчанию с http/https
 
 	private function getDomain( $model ) {
 		if (is_numeric($model)) {
@@ -202,7 +205,9 @@ class ProjectCommand extends CConsoleCommand {
     		return false;
     	}
 
-    	DomainsHeaders::model()->download( $model );
+    	$domainsHeadersModel =  DomainsHeaders::model()->download( $model );
+    	$this->robots_www = $domainsHeadersModel->both_www;
+    	$this->robots_http = $domainsHeadersModel->both_http;
 
 		return true;
     }
@@ -211,7 +216,9 @@ class ProjectCommand extends CConsoleCommand {
     	if (!($model = $this->getDomain( $model ))) {
     		return false;
     	}
-
+	$robotsModel = Robots::model();
+	$robotsModel->both_www = $this->robots_www;
+	$robotsModel->both_http = $this->robots_http;
     	Robots::model()->download( $model );
 
 		return true;
@@ -824,157 +831,161 @@ class ProjectCommand extends CConsoleCommand {
 
 		$this->log('initialized domain crawler');
 
-//     	while ($page = CrawlerPage::model()->findByAttributes(array('domain_id' => $model->id, 'check' => 0), array('order' => 'id asc'))) {
-// 			$this->log('page founded #' . $page->id . ' ' . $page->url);
-// 
-//         	if ($this->queue) {
-//         		$this->queue->ping();
-//         	}
-// 
-//     		/*print "page " . $page->id . ", " . $page->url . "\n";*/
-// 
-// 	        $page->check = 2;
-// 	        $page->save();
-// 
-//     		sleep( 1 );
-// 
-// 	        $text = @file_get_contents($page->url, false, $context);
-// 	        $status = 0;
-// 	        $headers = array();
-// 
-// 	        foreach ($http_response_header as $h) {
-// 	            $m = array();
-// 
-// 	            if (!$status and preg_match( "#HTTP/[0-9\.]+\s+([0-9]+)#", $h, $m )) {
-// 	                $status = intval($m[1]);
-// 	            }
-// 	            else {
-// 	            	$m = explode(':', $h, 2);
-// 
-// 	            	$headers[ $m[0] ] = trim($m[1]);
-// 	            }
-// 	        }
-// 
-// 	        list($content_type, $content_type_params) = explode(';', $headers['Content-Type'], 2);
-// 
-// 	        $page->code = (int) $status;
-// 	        $page->page_crc32 = crc32($text);
-// 
-// 	        /*print "status ".$status."\n";*/
-// 
-// 			$this->log('crawler page ' . $page->id . ' status ' . $status . ' ' . $page->url);
-// 
-// 	        if (trim($content_type) != 'text/html') {
-// 				$this->log('crawler page ' . $page->id . ' delete: content_type ' . $content_type);
-// 
-// 				Yii::app()->db->createCommand('DELETE 
-// 					FROM tbl_crawler_links
-// 					WHERE page_id = ' . $page->id . ' 
-// 						or link_id = ' . $page->id
-// 				)->execute();
-// 
-// 	        	$page->delete();
-// 
-// 	        	$page = null;
-// 	        }
-// 	        elseif ($status !== 200) {
-// 	        	if ($headers['Location']) {
-// 
-// 		            $href = $this->normalizeUrl($headers['Location'], $page->url);
-// 
-// 		            if ($href === false) {
-// 		            	/*print "NO URL -> next\n";*/
-// 		            	continue;
-// 		            }
-// 
-// 		            $out_id = $this->crawlerGetPageId( $href, $model );
-// 	            	$this->crawlerLinkSave( $page->id, $out_id, $anchor );
-// 	        	}
-// 	        }
-// 
-// 	        elseif ($text) {
-// 
-// 	        	$base_href = $page->url;
-// 
-// 		        if (preg_match_all('/<base(.+?)>/si', $text, $matches)) {
-// 		            foreach ($matches[0] as $j) {
-// 			            if (preg_match('/href="(.*?)"/si', $j, $m)) {
-// 			                $base_href = $m[1];
-// 			            }
-// 			            elseif (preg_match('/href=\'(.*?)\'/si', $j, $m)) {
-// 			                $base_href = $m[1];
-// 			            }
-// 			            elseif (preg_match('/href=([^ \f\n\r\t\v>]+)/si', $j, $m)) {
-// 			                $base_href = $m[1];
-// 
-// 			                if ($base_href[0] == '"' or $base_href[0] == "'") {
-// 			                    $base_href = substr($base_href, 1, -1);
-// 			                }
-// 			            }
-// 		            }
-// 		        }
-// 
-// 		        preg_match('/<body(.+?)>(.*)<\/body>/si', $text, $m);
-// 
-// 		        $text = $m[2];
-// 
-// 		        $remove = array(
-// 		            '/<script(.+?)<\/script>/si',
-// 		            '/<style(.+?)<\/style>/si',
-// 		            '/<!--(.+?)-->/si',
-// 		        );
-// 
-// 		        foreach ($remove as $regex) {
-// 		            $text = preg_replace($regex, '', $text);
-// 		        }
-// 
-// 		        $matches = array();
-// 
-// 		        preg_match_all('/<a (.+?)<\/a>/si', $text, $matches);
-// 
-// 		        foreach ($matches[0] as $a) {
-// 		            $anchor = $href = '';
-// 
-// 		            if (preg_match('/href="(.*?)"/si', $a, $m)) {
-// 		                $href = $m[1];
-// 		            }
-// 		            elseif (preg_match('/href=\'(.*?)\'/si', $a, $m)) {
-// 		                $href = $m[1];
-// 		            }
-// 		            elseif (preg_match('/href=([^ \f\n\r\t\v>]+)/si', $a, $m)) {
-// 		                $href = $m[1];
-// 
-// 		                if ($href[0] == '"' or $href[0] == "'") {
-// 		                    $href = substr($href, 1, -1);
-// 		                }
-// 		            }
-// 
-// 		            if (preg_match('/>(.*)<\/a>/si', $a, $m)) {
-// 		                $anchor = trim($m[1]);
-// 		            }
-// 
-// 		            $href = $this->normalizeUrl($href, $base_href);
-// 
-// 		            if ($href === false) {
-// 		            	/*print "NO URL -> next\n";*/
-// 		            	continue;
-// 		            }
-// 
-// 		            $out_id = $this->crawlerGetPageId( $href, $model );
-// 	            	$this->crawlerLinkSave( $page->id, $out_id, $anchor );
-// 		        }
-// 
-// 	        }
-// 
-// 	        if ($page) {
-// 		        $page->check = 1;
-// 		        $page->save();
-// 	        }
-// 
-//     		/*print "page end\n";*/
-// 
-//     		sleep( 1 );
-//     	}
+    	while ($page = CrawlerPage::model()->findByAttributes(array('domain_id' => $model->id, 'check' => 0), array('order' => 'id asc'))) {
+			$this->log('page founded #' . $page->id . ' ' . $page->url);
+
+        	if ($this->queue) {
+        		$this->queue->ping();
+        	}
+
+    		/*print "page " . $page->id . ", " . $page->url . "\n";*/
+
+	        $page->check = 2;
+	        $page->save();
+		if ( $this->checkUrl($model->id, $page->url) ) {
+		    //$page->check = 1;
+		    //$page->save();
+		    //continue;
+		}
+    		sleep( 1 );
+
+	        $text = @file_get_contents($page->url, false, $context);
+	        $status = 0;
+	        $headers = array();
+
+	        foreach ($http_response_header as $h) {
+	            $m = array();
+
+	            if (!$status and preg_match( "#HTTP/[0-9\.]+\s+([0-9]+)#", $h, $m )) {
+	                $status = intval($m[1]);
+	            }
+	            else {
+	            	$m = explode(':', $h, 2);
+
+	            	$headers[ $m[0] ] = trim($m[1]);
+	            }
+	        }
+
+	        list($content_type, $content_type_params) = explode(';', $headers['Content-Type'], 2);
+
+	        $page->code = (int) $status;
+	        $page->page_crc32 = crc32($text);
+
+	        /*print "status ".$status."\n";*/
+
+		$this->log('crawler page ' . $page->id . ' status ' . $status . ' ' . $page->url);
+
+	        if (trim($content_type) != 'text/html') {
+				$this->log('crawler page ' . $page->id . ' delete: content_type ' . $content_type);
+
+				Yii::app()->db->createCommand('DELETE 
+					FROM tbl_crawler_links
+					WHERE page_id = ' . $page->id . ' 
+						or link_id = ' . $page->id
+				)->execute();
+
+	        	$page->delete();
+
+	        	$page = null;
+	        }
+	        elseif ($status !== 200) {
+	        	if ($headers['Location']) {
+
+		            $href = $this->normalizeUrl($headers['Location'], $page->url);
+
+		            if ($href === false) {
+		            	/*print "NO URL -> next\n";*/
+		            	continue;
+		            }
+
+		            $out_id = $this->crawlerGetPageId( $href, $model );
+	            	$this->crawlerLinkSave( $page->id, $out_id, $anchor );
+	        	}
+	        }
+
+	        elseif ($text) {
+
+	        	$base_href = $page->url;
+
+		        if (preg_match_all('/<base(.+?)>/si', $text, $matches)) {
+		            foreach ($matches[0] as $j) {
+			            if (preg_match('/href="(.*?)"/si', $j, $m)) {
+			                $base_href = $m[1];
+			            }
+			            elseif (preg_match('/href=\'(.*?)\'/si', $j, $m)) {
+			                $base_href = $m[1];
+			            }
+			            elseif (preg_match('/href=([^ \f\n\r\t\v>]+)/si', $j, $m)) {
+			                $base_href = $m[1];
+
+			                if ($base_href[0] == '"' or $base_href[0] == "'") {
+			                    $base_href = substr($base_href, 1, -1);
+			                }
+			            }
+		            }
+		        }
+
+		        preg_match('/<body(.+?)>(.*)<\/body>/si', $text, $m);
+
+		        $text = $m[2];
+
+		        $remove = array(
+		            '/<script(.+?)<\/script>/si',
+		            '/<style(.+?)<\/style>/si',
+		            '/<!--(.+?)-->/si',
+		        );
+
+		        foreach ($remove as $regex) {
+		            $text = preg_replace($regex, '', $text);
+		        }
+
+		        $matches = array();
+
+		        preg_match_all('/<a (.+?)<\/a>/si', $text, $matches);
+
+		        foreach ($matches[0] as $a) {
+		            $anchor = $href = '';
+
+		            if (preg_match('/href="(.*?)"/si', $a, $m)) {
+		                $href = $m[1];
+		            }
+		            elseif (preg_match('/href=\'(.*?)\'/si', $a, $m)) {
+		                $href = $m[1];
+		            }
+		            elseif (preg_match('/href=([^ \f\n\r\t\v>]+)/si', $a, $m)) {
+		                $href = $m[1];
+
+		                if ($href[0] == '"' or $href[0] == "'") {
+		                    $href = substr($href, 1, -1);
+		                }
+		            }
+
+		            if (preg_match('/>(.*)<\/a>/si', $a, $m)) {
+		                $anchor = trim($m[1]);
+		            }
+
+		            $href = $this->normalizeUrl($href, $base_href);
+
+		            if ($href === false) {
+		            	/*print "NO URL -> next\n";*/
+		            	continue;
+		            }
+
+		            $out_id = $this->crawlerGetPageId( $href, $model );
+	            	$this->crawlerLinkSave( $page->id, $out_id, $anchor );
+		        }
+
+	        }
+
+	        if ($page) {
+		        $page->check = 1;
+		        $page->save();
+	        }
+
+    		/*print "page end\n";*/
+
+    		sleep( 1 );
+    	}
 
 		$this->log('end of domain crawler');
 
@@ -1191,6 +1202,13 @@ class ProjectCommand extends CConsoleCommand {
 			}
 		}
     }
+    
+    private function checkUrl($domain_id, $url) {
+	$validateUrl = new ValidateUrl();
+	$result = $validateUrl->check( $domain_id, $url);
+	
+    }
+    
 
     public function actionProjectYastruct( $model ) {
     	if (!($model = $this->getProject( $model ))) {
@@ -1261,7 +1279,7 @@ class ProjectCommand extends CConsoleCommand {
             }
 
             if ($page_total == 0) {
-            	break;
+            	break;  // !!!!!!!!! сделать флаг чтоб начал собирать из сайтмапа
             }
         }
 
@@ -1271,6 +1289,10 @@ class ProjectCommand extends CConsoleCommand {
             'did' => $model->domain_id,
         );
         
+        if ( empty($arrayUrl) ) {
+	    return true;
+        }
+        
         foreach ($arrayUrl as $i => $j) {
             if ($i > 0) $sql .= ', ';
 
@@ -1279,12 +1301,8 @@ class ProjectCommand extends CConsoleCommand {
             $parameters['url' . $i] = $j;
             $parameters['hash' . $i] = md5( $model->domain_id . $j );
         }
-	//echo '<pre>'; var_dump($sql); var_dump($parameters); echo '</pre>';
+	
         Yii::app()->db->createCommand($sql)->execute($parameters);
-        
-        
-        
-        
         
         return true;
     }

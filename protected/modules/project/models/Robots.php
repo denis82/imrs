@@ -1,7 +1,10 @@
 <?php
 
 class Robots extends CActiveRecord {
-
+    
+    public $both_www = false;
+    public $both_http = false;
+    
     public function tableName() {
         return '{{robots}}';
     }
@@ -104,14 +107,70 @@ class Robots extends CActiveRecord {
             if (strlen($data)) {
                 $h = new self;
                 $h->domain_id = $model->id;
+                $h->host = $this->hostWww($data);
+                $h->protocol = $this->hostHttp($data);
                 $h->text = $data;
                 $h->save();
-
+		
+		$domainsHeadersModel = DomainsHeaders::model()->findByAttributes(array('domain_id' => $domain_id));
+		if ( $this->both_www ) {
+		    $domainsHeadersModel->current_www = $this->hostWww($data); // если редирект настроен
+		}
+		if ( $this->both_http ) {
+		    $domainsHeadersModel->current_https = $this->hostHttp($data); // если редирект настроен 
+		}
+		$domainsHeadersModel->save();
+		
                 return $h;
             }
         }
 
         return false;
     }
+    /*
+      Проверяет значение директивы host домен с www или без www
+      $var [string] -  текст robots 
+      return [string]
+    */
+    private function hostWww($var) {
+	
+
+	// если открывается оба урла  www / без www
+	    preg_match('/[H,h][O,o][S,s][T,t]:[w]{0,3}.+/', $var, $matche);
+	    
+	    if (!empty($matche)) {
+	      $explode = explode(':' , $matche[0]);
+	      if (preg_match('/[w]{3}./', trim ( $explode[1] ), $matche_explode)) {
+		  $host = 'www';
+	      }
+	    }
+	   
+	return $host;
+    }
+    
+        /*
+      Проверяет значение директивы host домен с http или https
+      $var [string] -  текст robots 
+      return [string]
+    */
+    private function hostHttp($var) {
+	
+	 // если открывается оба урла  http / https
+	    
+	    preg_match('/[H,h][O,o][S,s][T,t]:[w]{0,3}.+/', $var, $matche);
+	
+	    if (!empty($matche)) {
+		$protocol = parse_url ( $matche[0] ,PHP_URL_SCHEME);
+		if('http' == $protocol or 'https' == $protocol) {
+		    return $protocol;
+		} else {
+		    return '';
+		}
+	    } 
+
+	return $http;
+	
+    }
 
 }
+
