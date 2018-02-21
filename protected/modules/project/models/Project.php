@@ -41,8 +41,8 @@ class Project extends CActiveRecord {
             array('name, host, regions', 'required'),
             array('name, host', 'length', 'max' => 250),
             array('user_id', 'numerical', 'integerOnly' => true),
-            array('lastcheck, alltags', 'safe'),
-            array('id, user_id, name, host, keywords, regions, lastcheck, wordstat_date, domain_id', 'safe', 'on' => 'search'),
+            array('lastcheck, alltags, error_control', 'safe'),
+            array('id, user_id, name, host, keywords, regions, lastcheck, wordstat_date, domain_id, error_control', 'safe', 'on' => 'search'),
         );
     }
 
@@ -71,6 +71,8 @@ class Project extends CActiveRecord {
             'host' => 'Адрес сайта (начиная с http:// или https://)',
             'keywords' => 'Ключевые слова',
             'regions' => 'Регионы Яндекса (выберите из списка один)',
+            'error_control' => 'Контроль ошибок',
+            'audit_control' => 'Запустить аудит',
             'alltags' => 'Введите ключевые фразы (каждая в новой строке)',
 			'wordstat_date' => 'Wordstat Date'
         );

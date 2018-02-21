@@ -3738,6 +3738,7 @@ $_br = '<w:p w14:paraId="3F7F6C20" w14:textId="77777777" w:rsidR="002F5D30" w:rs
 						'project/internal/traffic' => '1.10 Посещаемость сайта', 
 						'project/internal/speed' => '1.11 Время загрузки сайта', 
 						'project/internal/meta' => '1.12 Мета-теги', 
+						'project/internal/errors' => '1.13 Оповещения об ошибках', 
 					'project/content' => '2. Контент', 
 						'project/content/uniqtext' => '2.1 Уникальность текстов', 
 						'project/content/uniqimage' => '2.2 Уникальность картинок', 

@@ -90,6 +90,11 @@ class ProjectModule extends CAdminModule {
 						'url' => Yii::app()->urlManager->createUrl('project/internal/meta', array('id' => $id)), 
 						'active' => $this->checkActive('project/internal/meta', true),
 					),
+					array(
+						'label' => 'Редактирование роботс', 
+						'url' => Yii::app()->urlManager->createUrl('project/internal/errors', array('id' => $id)), 
+						'active' => $this->checkActive('project/internal/errors', true),
+					),
 				),
 			),
 			array(

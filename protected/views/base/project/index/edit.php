@@ -70,6 +70,10 @@
         </div>
     </div>
 
+    
+    
+    
+    
     <div class="col-lg-6 col-md-6">
         <div class="panel panel-flat">
             <div class="panel-body">
@@ -137,4 +141,17 @@
             </div>
         </div>
     </div>
+    
+    <div class="col-lg-6 col-md-6">
+        <div class="panel panel-flat">
+            <div class="panel-body">
+            	<h6 class="text-semibold">Отсеживание ошибок</h6>
+                <div class="text-center" style="margin-top: 1em;">
+                    <a href="<?= Yii::app()->urlManager->createUrl('project/index/errors', array('id' => $model->id)) ?>" class="btn btn-success"><?= $btn ?></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
 </div>

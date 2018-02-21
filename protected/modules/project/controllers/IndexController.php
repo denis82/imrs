@@ -209,6 +209,36 @@ class IndexController extends CSiteController
             "errors" => $e,
         ));
     }
+    
+    public function actionErrors($id)
+    {
+        //$this->project = $model = Project::model()->findByPk($id);
+        //$this->project = $model = ReportErrorsLinks::model()->findByPk($id); 
+        $this->genBreadcrumbs();
+	$this->description = 'Отслеживание изменений на важных страницах';
+	
+	
+
+        $modelReportErrorsLinks = new ReportErrorsLinks;
+        //$form->project = $model;
+
+        if (isset($_POST[ get_class($form) ])) {
+            $form->attributes = $_POST[ get_class($form) ];
+            if ($form->save()) {
+                $this->redirect(Yii::app()->createUrl($this->module->id . '/' . $this->id . '/update', array('id' => $model->id)));
+            }
+            else {
+                $e = $form->getErrors();
+            }
+        }
+
+        $this->render('project.index.errors', array(
+            //"model" => $model,
+            "modelReportErrorsLinks" => $modelReportErrorsLinks,
+            "errors" => $e,
+        ));
+    }
+    
 
     public function actionRemove($id)
     {

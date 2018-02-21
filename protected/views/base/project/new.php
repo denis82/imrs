@@ -84,6 +84,29 @@
                         </div>
                     </div>                    
 
+		    <div class="form-group">
+                    <div class="checkbox checkbox-right">
+		    <label class="control-label col-lg-4">
+			<div class="col-lg-8">
+			<?php echo $form->checkBox( $model, 'error_control', ['type' => 'checkbox']);?>
+			<?= $model->getAttributeLabel('error_control') ?>
+
+			</div>	
+		    </label>
+		    </div>
+		    </div>
+		    
+		    <div class="form-group">
+                    <div class="checkbox checkbox-right">
+		    <label class="control-label col-lg-4">
+			<div class="col-lg-8">
+			  <?php echo $form->checkBox( $model, 'audit_control', ['type' => 'checkbox']);?>
+			  <? echo $model->getAttributeLabel('audit_control'); ?>
+			</div>	
+		    </label>
+		    </div>
+		    </div>
+                    
                     <div class="text-right">
                         <button type="submit" class="btn btn-primary">Сохранить <i class="icon-arrow-right14 position-right"></i></button>
                     </div>

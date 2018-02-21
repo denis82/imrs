@@ -359,6 +359,21 @@ class InternalController extends CSiteController
         	"pages" => $model->domain->sitemap,
         ));
     }
+    
+    public function actionErrors($id){
+	    
+        $this->project = $model = Project::model()->findByPk($id);
+        $this->description = 'Оповещения об ошибках';
+     	$this->genBreadcrumbs();
+// 
+//    	$last_update = Queue::model()->findStageForProject( $model, 11 );
+
+        $this->render('project.internal.errors', array(
+        	"last_update" => "!!",
+        	//"model" => $model,
+        	//"pages" => $model->domain->sitemap,
+        ));
+    }
 
     public function actionLoad( $id, $method )
     {

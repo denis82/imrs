@@ -53,13 +53,81 @@ class ReportController extends CSiteController
     
     public function actionTest() {
 
-    //$tr = DomainsHeaders::model()->findByAttributes(array('domain_id' => 60106));
-    $tr = new ValidateUrl();
+    
+// 	if( $curl = curl_init() ) {
+// 	  curl_setopt($curl,CURLOPT_URL,'http://konturfoto.ru/robots.txt');
+// 	  curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
+// 	  curl_setopt($curl,CURLOPT_NOBODY,false);
+// 	  curl_setopt($curl,CURLOPT_HEADER,false);
+// 	  $out = curl_exec($curl);
+// 	  curl_close($curl);
+//       }    
+//     
+//     echo "<pre>"; var_dump($out); echo "</pre>"; echo "<br>";
+    $modelProject = Project::model()->findAllByAttributes(['error_control' => true]);
+    
+  $criteria=new CDbCriteria;
+  $r = 1;
+  $re = 'available='. 1;
+  $criteria->condition= 'available='. $r;
+  //$criteria->params=array(':postID'=>true);
+  $criteria->order = "date DESC";
+  //$criteria->order = "date ASC";
+ 
+  //ServiceStep::model()->find($criteria);
+    
+    //$modelProject = ReportErrors::model()->findByAttributes(['domain_id' => 2341]);
+    $i = 0;
+    stream_context_set_default([
+	'ssl' => [
+	    'verify_peer' => false,
+	    'verify_peer_name' => false,
+	],
+    ]);
+    //echo "<pre>"; var_dump(count($modelProject)); echo "</pre>"; echo "<br>"; 
+    foreach ($modelProject as $host) {
+
+	$url = $host->host;
+	//$out = get_headers($url);
+	//$out = get_headers('https://w-motors.ru');
+	$url = 'http://w-motors.ru';
+	
+$i++;
+    }
+//       if( $curl = curl_init() ) {
+// 	  curl_setopt($curl,CURLOPT_URL,'https://w-motors.ru');
+// 	  curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
+// 	  curl_setopt($curl,CURLOPT_NOBODY,true);
+// 	  curl_setopt($curl,CURLOPT_HEADER,true);
+// 	  curl_setopt($curl,CURLOPT_SSL_VERIFYHOST,0);
+// 	  curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,0);
+// 	  $out = curl_exec($curl);
+// 	  curl_close($curl);
+//       }
+// if($i > 1) {
+//   break;
+// }
+$modelProject = Project::model()->findByAttributes(['domain_id' => 60056]);
+	  $modelProject->available = 1;
+	  $modelProject->save();
+	echo "<pre>"; var_dump($modelProject->available); echo "</pre>"; echo "<br>";
+// 	if (is_string($resultHeaders)) {
+// 	    preg_match( "/200 OK/", $resultHeaders, $m );
+// 	    echo "<pre>"; var_dump($m); echo "</pre>"; echo "<br>";
+// 	}
+	
+      
+//       if (preg_match("!Location: (.*)!", $out, $matches)) {
+// 	  return true;
+//       } else {
+// 	  return false;
+//       }
+//     $tr = new ValidateUrl();
    // $tr->current_www = 'www'; // если редирект настроен
    // $tr->current_https = 'https'; // если редирект настроен 
     //$tr->save();
     
-    var_dump ( $tr->http() );
+    //var_dump ( $tr->http() );
     //var_dump ( $tr->protocol );
 	//print_r ( Robots::model()->test ); 
     }
