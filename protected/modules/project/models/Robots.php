@@ -107,19 +107,19 @@ class Robots extends CActiveRecord {
             if (strlen($data)) {
                 $h = new self;
                 $h->domain_id = $model->id;
-                $h->host = $this->hostWww($data);
-                $h->protocol = $this->hostHttp($data);
+                //$h->host = $this->hostWww($data);
+                //$h->protocol = $this->hostHttp($data);
                 $h->text = $data;
                 $h->save();
 		
-		$domainsHeadersModel = DomainsHeaders::model()->findByAttributes(array('domain_id' => $domain_id));
-		if ( $this->both_www ) {
-		    $domainsHeadersModel->current_www = $this->hostWww($data); // если редирект настроен
-		}
-		if ( $this->both_http ) {
-		    $domainsHeadersModel->current_https = $this->hostHttp($data); // если редирект настроен 
-		}
-		$domainsHeadersModel->save();
+// 		$domainsHeadersModel = DomainsHeaders::model()->findByAttributes(array('domain_id' => $domain_id));
+// 		if ( $this->both_www ) {
+// 		    $domainsHeadersModel->current_www = $this->hostWww($data); // если редирект настроен
+// 		}
+// 		if ( $this->both_http ) {
+// 		    $domainsHeadersModel->current_https = $this->hostHttp($data); // если редирект настроен 
+// 		}
+// 		$domainsHeadersModel->save();
 		
                 return $h;
             }
