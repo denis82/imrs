@@ -30,41 +30,40 @@ class SitemapDownloader {
         for ($j = 0; $j < count($this->queue); $j++) {
         	$url = $this->queue[$j];
 
-            $data = @file_get_contents($url, false, $context);
+        $data = @file_get_contents($url, false, $context);
 
-            if ($data) {
+		if ($data) {
 
-				if (strpos($data, '<?xml') === false) {
-					$ungz = @gzdecode($data);
+			if (strpos($data, '<?xml') === false) {
+				$ungz = @gzdecode($data);
 
-					if ($ungz) {
-						$data = $ungz;
+				if ($ungz) {
+					$data = $ungz;
+				}
+			}
+
+			$exists = true;
+
+			$a = array();
+			$index = array();
+
+			$p = xml_parser_create();
+			xml_parser_set_option($p, XML_OPTION_SKIP_WHITE, 1);
+			$xml_result = xml_parse_into_struct($p, $data, $a, $index);
+			xml_parser_free($p);
+
+			if ($xml_result) {
+				if ($index['SITEMAPINDEX']) {
+					foreach ($index['LOC'] as $i) {
+						$this->queue[] = $a[$i]['value'];
+					}
+				} else {
+					foreach ($index['LOC'] as $i) {
+						$this->names[] = $a[$i]['value'];
 					}
 				}
-
-                $exists = true;
-
-                $a = array();
-                $index = array();
-
-                $p = xml_parser_create();
-                xml_parser_set_option($p, XML_OPTION_SKIP_WHITE, 1);
-                $xml_result = xml_parse_into_struct($p, $data, $a, $index);
-                xml_parser_free($p);
-
-                if ($xml_result) {
-                	if ($index['SITEMAPINDEX']) {
-	                	foreach ($index['LOC'] as $i) {
-	                		$this->queue[] = $a[$i]['value'];
-	                	}
-                	}
-                	else {
-	                	foreach ($index['LOC'] as $i) {
-                            $this->names[] = $a[$i]['value'];
-	                	}
-                	}
-                }
-            }
+			}
+		}
         }
 
         if (!$exists) {

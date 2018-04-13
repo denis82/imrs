@@ -3,15 +3,15 @@
 class ValidateUrl 
 {
     public $domain_id;
-    function __construct( $domain_id, $url) {
-    
+//    function __construct( $domain_id, $url) {
+    function __construct() {    
 //       $type = 'DomainsHeaders';
 // 
 //         if (is_numeric($model)) {
 //             $model = $type::model()->findByPk( $model );
 //         }
 //         $this->domain_id = $model->id;
-        $domainsHeadersModel = DomainsHeaders::model()->findByAttributes(array('domain_id' => $domain_id));
+//        $domainsHeadersModel = DomainsHeaders::model()->findByAttributes(array('domain_id' => $domain_id));
     }
     
     public function http() {

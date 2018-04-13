@@ -5,6 +5,7 @@ class IndexController extends CSiteController
 
     public $name = '';
     public $description = '';
+    public $downloadPath = 'project/index/download/';
 
 	private function genBreadcrumbs( ) {
         $this->title = $this->project->name;
@@ -123,6 +124,44 @@ class IndexController extends CSiteController
         ));
     }
 
+    
+    public function actionErrors($id)
+    {
+        $this->project = $model = Project::model()->findByPk($id); 
+        $this->genBreadcrumbs();
+	$this->description = 'Отслеживание изменений на важных страницах';
+
+	$errorForm = new ErrorForm;
+	$errorForm->robots = Yii::app()->params['robots'];
+	$errorForm->sitemap = Yii::app()->params['sitemap'];
+        $errorForm->project = $model;
+        
+        if (isset($_POST[ get_class($errorForm) ]) and isset($_POST[ get_class($model)])) {
+	
+		$errorForm->attributes = $_POST[ get_class($errorForm) ];
+		$model->attributes = $_POST[ get_class($model)];
+		if ( $errorForm->save() and $model->save() ) {
+			if ( 0 == $errorForm->attributes["damageCountUrlString"] ) {
+				$this->redirect(Yii::app()->createUrl($this->module->id . '/' . $this->id . '/update', array('id' => $model->id)));
+			}	
+		} else {
+		    //var_dump($errorForm->getErrors());
+		    //var_dump($model->getErrors());
+		    //die();    
+		}
+        }
+	elseif ($modelReportErrorsLinks = ReportErrorsLinks::model()->findByAttributes(array('domain_id' => $model->domain_id))) {
+		$modelReportErrorsLinks->attributes['path'] = json_decode($modelReportErrorsLinks->attributes['path']);
+		$errorForm->attributes = $modelReportErrorsLinks->attributes;
+        }
+
+        $this->render('project.index.errors', array(
+            "errorForm" => $errorForm,
+            "modelProject" => $model,
+        ));
+    }
+    
+    
     public function actionOrg($id)
     {
         $this->project = $model = Project::model()->findByPk($id);
@@ -210,34 +249,7 @@ class IndexController extends CSiteController
         ));
     }
     
-    public function actionErrors($id)
-    {
-        //$this->project = $model = Project::model()->findByPk($id);
-        //$this->project = $model = ReportErrorsLinks::model()->findByPk($id); 
-        $this->genBreadcrumbs();
-	$this->description = 'Отслеживание изменений на важных страницах';
-	
-	
 
-        $modelReportErrorsLinks = new ReportErrorsLinks;
-        //$form->project = $model;
-
-        if (isset($_POST[ get_class($form) ])) {
-            $form->attributes = $_POST[ get_class($form) ];
-            if ($form->save()) {
-                $this->redirect(Yii::app()->createUrl($this->module->id . '/' . $this->id . '/update', array('id' => $model->id)));
-            }
-            else {
-                $e = $form->getErrors();
-            }
-        }
-
-        $this->render('project.index.errors', array(
-            //"model" => $model,
-            "modelReportErrorsLinks" => $modelReportErrorsLinks,
-            "errors" => $e,
-        ));
-    }
     
 
     public function actionRemove($id)
@@ -380,7 +392,28 @@ class IndexController extends CSiteController
 
         Yii::app()->end();
     }
+    
+	public function actionDownload( $id ){
+		
+		$path = Yii::app()->basePath  . '/' . Yii::app()->params['pathToDiffList'] . $id;
+		$this->downloadFile($path);
+	}
+	
+	public function downloadFile($fullpath){
+		if(!empty($fullpath)){ 
+			header("Content-type:application/txt"); //for pdf file
+			//header('Content-Type:text/plain; charset=ISO-8859-15');
+			//if you want to read text file using text/plain header 
+			header('Content-Disposition: attachment; filename="'.basename($fullpath).'"'); 
+			header('Content-Length: ' . filesize($fullpath));
+			readfile($fullpath);
+			Yii::app()->end();
+		}
+	}
 
+
+    
+    
     public function getForm($element)
     {
         return array(

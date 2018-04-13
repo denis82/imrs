@@ -3266,8 +3266,8 @@ $_br = '<w:p w14:paraId="3F7F6C20" w14:textId="77777777" w:rsidR="002F5D30" w:rs
 			</w:r>
 		</w:p>
 		<w:p w14:paraId="6B97308F" w14:textId="77777777" w:rsidR="00C93C1C" w:rsidRDefault="00C93C1C" w:rsidP="00C93C1C"/>
-		<?php if ($speed_desktop->rules and count($speed_desktop->rules)): ?>
-			<?php foreach ($speed_desktop->rules as $r): ?>
+		<?php if ($speed_desktop->formattedResults->ruleResults and count($speed_desktop->formattedResults->ruleResults)): ?>
+			<?php foreach ($speed_desktop->formattedResults->ruleResults as $r): ?>
 				<?php
 					if ($r->ruleImpact == 0) continue;
 					elseif ($r->ruleImpact < 10) $style = $color_warning;
@@ -3352,8 +3352,8 @@ $_br = '<w:p w14:paraId="3F7F6C20" w14:textId="77777777" w:rsidR="002F5D30" w:rs
 			</w:r>
 		</w:p>
 		<w:p w14:paraId="6B97308F" w14:textId="77777777" w:rsidR="00C93C1C" w:rsidRDefault="00C93C1C" w:rsidP="00C93C1C"/>
-		<?php if ($speed_mobile->rules and count($speed_mobile->rules)): ?>
-			<?php foreach ($speed_mobile->rules as $r): ?>
+		<?php if ($speed_desktop->formattedResults->ruleResults and count($speed_desktop->formattedResults->ruleResults)): ?>
+			<?php foreach ($speed_desktop->formattedResults->ruleResults as $r): ?>
 				<?php
 					if ($r->ruleImpact == 0) continue;
 					elseif ($r->ruleImpact < 10) $style = $color_warning;

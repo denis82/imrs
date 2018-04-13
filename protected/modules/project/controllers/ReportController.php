@@ -53,83 +53,72 @@ class ReportController extends CSiteController
     
     public function actionTest() {
 
-    
-// 	if( $curl = curl_init() ) {
-// 	  curl_setopt($curl,CURLOPT_URL,'http://konturfoto.ru/robots.txt');
-// 	  curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
-// 	  curl_setopt($curl,CURLOPT_NOBODY,false);
-// 	  curl_setopt($curl,CURLOPT_HEADER,false);
-// 	  $out = curl_exec($curl);
-// 	  curl_close($curl);
-//       }    
-//     
-//     echo "<pre>"; var_dump($out); echo "</pre>"; echo "<br>";
-    $modelProject = Project::model()->findAllByAttributes(['error_control' => true]);
-    
-  $criteria=new CDbCriteria;
-  $r = 1;
-  $re = 'available='. 1;
-  $criteria->condition= 'available='. $r;
-  //$criteria->params=array(':postID'=>true);
-  $criteria->order = "date DESC";
-  //$criteria->order = "date ASC";
- 
-  //ServiceStep::model()->find($criteria);
-    
-    //$modelProject = ReportErrors::model()->findByAttributes(['domain_id' => 2341]);
-    $i = 0;
-    stream_context_set_default([
-	'ssl' => [
-	    'verify_peer' => false,
-	    'verify_peer_name' => false,
-	],
-    ]);
-    //echo "<pre>"; var_dump(count($modelProject)); echo "</pre>"; echo "<br>"; 
-    foreach ($modelProject as $host) {
 
-	$url = $host->host;
-	//$out = get_headers($url);
-	//$out = get_headers('https://w-motors.ru');
-	$url = 'http://w-motors.ru';
-	
-$i++;
-    }
-//       if( $curl = curl_init() ) {
-// 	  curl_setopt($curl,CURLOPT_URL,'https://w-motors.ru');
-// 	  curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
-// 	  curl_setopt($curl,CURLOPT_NOBODY,true);
-// 	  curl_setopt($curl,CURLOPT_HEADER,true);
-// 	  curl_setopt($curl,CURLOPT_SSL_VERIFYHOST,0);
-// 	  curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,0);
-// 	  $out = curl_exec($curl);
-// 	  curl_close($curl);
-//       }
-// if($i > 1) {
-//   break;
-// }
-$modelProject = Project::model()->findByAttributes(['domain_id' => 60056]);
-	  $modelProject->available = 1;
-	  $modelProject->save();
-	echo "<pre>"; var_dump($modelProject->available); echo "</pre>"; echo "<br>";
-// 	if (is_string($resultHeaders)) {
-// 	    preg_match( "/200 OK/", $resultHeaders, $m );
-// 	    echo "<pre>"; var_dump($m); echo "</pre>"; echo "<br>";
-// 	}
-	
-      
-//       if (preg_match("!Location: (.*)!", $out, $matches)) {
-// 	  return true;
-//       } else {
-// 	  return false;
-//       }
-//     $tr = new ValidateUrl();
-   // $tr->current_www = 'www'; // если редирект настроен
-   // $tr->current_https = 'https'; // если редирект настроен 
-    //$tr->save();
+//     echo "<pre>"; var_dump($out); echo "</pre>"; echo "<br>";
+    //$modelProject = DomainsHeaders::model()->getStatusHost( 'http://cannibalcorpse.net/' );
+    //$data = @file_get_contents( 'https://losst.ru/robots.txt' );
+    //$modelProject = Robots::model()->hostHttp($data);
     
-    //var_dump ( $tr->http() );
-    //var_dump ( $tr->protocol );
-	//print_r ( Robots::model()->test ); 
+    /*
+    $criteria = new CDbCriteria;
+    $criteria->alias = 'err';
+    $criteria->select = 'MIN(date1)';
+    $criteria->condition = 'err.domain_id = :domain_id';
+    $criteria->params = array(':domain_id'=>60048);
+    //$criteria->having = 'MIN(date)';
+    $res = ReportErrors::model()->findAll($criteria);
+    echo '<pre>';var_dump( $res); echo '</pre>';
+    
+    $targetFiles = ['robots.txt','sitemap.xml'];
+    $errorsProject = ReportErrorsLinks::model()->findByAttributes(['domain_id' => 60048]);
+    $arrayErrorsProject = json_decode($errorsProject->path);
+    $targetPages = [];
+    foreach ( $arrayErrorsProject as  $errorProject) { 
+	$pop = "https://habrahabr.ru";
+	$normalPattern = "/".addcslashes($pop, '/')."/";
+	preg_match($normalPattern, $errorProject, $match);
+	if ( !$match ) {
+	    continue;
+	}
+	$cutOffUrl = preg_replace($normalPattern, "", $errorProject);
+	$targetPages[] = $cutOffUrl;
+
+    }
+    
+    $r = array_merge($targetFiles, $targetPages);*/
+    //echo "<pre>"; var_dump($r); echo "</pre>";
+    //$modelProject = Project::model()->findByAttributes(['domain_id' => 60048]);
+    //$modelreportErrors = ReportErrors::model()->findByAttributes(['domain_id' => 60048, 'date' => date('Y-m-d'), 'note_type' => false]);
+    //$projectName = $errorsProject->name;
+    //$urls = [1 => 2, 2 => 3];
+    //include 
+     //$textMessage = include dirname(__FILE__) . DIRECTORY_SEPARATOR . "../templateEmail/emailText.php";
+    
+	//$message =  new LogHelper();
+	$logger = LogHelper::get_logger(Yii::app()->params['pathForPageErrorLogging']);
+	
+	$logger->log("Well done google class.");
+    
+      //$message =  CFileHelper::validatePath('/var/www/skipper.su', 'mangnikon', false);
+
+//       $level = 'info';
+//       $category = 'application';
+//       $message = 'fooI';
+//       $res = Yii::trace($message);
+//       var_dump($res);
+      //$message->view = 'emailText';
+      //$message->setBody(['modelProject' => $modelProject, 'modelreportErrors' => $modelreportErrors, 'urls' => $urls], 'text/html');
+      //$message->subject = 'My Subject';
+      //$message->addTo('dtelegiasasasd2423wewersdfasrwerw3n.spok@yandex.ru');
+      //$message->from = 'seo@seo-experts.com';//Yii::app()->params['adminEmail'];
+      //echo '<pre>';var_dump( $message->from); echo '</pre>';
+      //$res = Yii::app()->mail->send($message);
+      //var_dump($res);
+    //$modelProject = DomainsHeaders::model()->getStatusWww( 'http://cannibalcorpse.net/' );
+   // echo "<pre>"; var_dump($data); echo "</pre>";
+    //var_dump($modelProject2);
+
+
     }
     
         public function status($url) {
@@ -320,11 +309,13 @@ $modelProject = Project::model()->findByAttributes(['domain_id' => 60056]);
 
 			$rules = array();
 
-			if (is_array($data->formattedResults->ruleResults))
+			if (is_array($data->formattedResults->ruleResults) || is_object( $data->formattedResults->ruleResults)) {
+			//if ($data->formattedResults->ruleResults) {
 				foreach ($data->formattedResults->ruleResults as $j => $r) {
 					$r->name = $j;
 					$rules[] = $r;
 				}
+			}	
 
 			usort($rules, function($a, $b){
 				if ($a->ruleImpact == $b->ruleImpact) return 0;
@@ -354,11 +345,13 @@ $modelProject = Project::model()->findByAttributes(['domain_id' => 60056]);
 
 			$rules = array();
 
-			if (is_array($data->formattedResults->ruleResults))
+			if (is_array($data->formattedResults->ruleResults) || is_object ( $data->formattedResults->ruleResults)) {
+			//if (is_object ( $data->formattedResults->ruleResults)) {
 				foreach ($data->formattedResults->ruleResults as $j => $r) {
 					$r->name = $j;
 					$rules[] = $r;
 				}
+			}	
 
 			usort($rules, function($a, $b){
 				if ($a->ruleImpact == $b->ruleImpact) return 0;

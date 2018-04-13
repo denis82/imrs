@@ -79,6 +79,7 @@ class DomainsWayback extends CActiveRecord {
             }
 
             foreach ($all as $i) {
+		var_dump($i['time']);
                 $name = parse_url($model->url(), PHP_URL_HOST) . '-' . date('YmdHis', strtotime($i['time'])) . '.png';
                 WebScreenshot::model(array('url' => $i['url']))->save( $baseDir . $dir . $name );
 

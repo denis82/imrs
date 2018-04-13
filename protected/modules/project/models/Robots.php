@@ -102,27 +102,30 @@ class Robots extends CActiveRecord {
 
         if ($model and $model instanceof $type) {
 
-            $data = @file_get_contents( $model->url() . '/robots.txt' );
+		$data = @file_get_contents( $model->url() . '/robots.txt' );
 
-            if (strlen($data)) {
-                $h = new self;
-                $h->domain_id = $model->id;
-                $h->host = $this->hostWww($data);
-                $h->protocol = $this->hostHttp($data);
-                $h->text = $data;
-                $h->save();
-		
-		$domainsHeadersModel = DomainsHeaders::model()->findByAttributes(array('domain_id' => $domain_id));
-		if ( $this->both_www ) {
-		    $domainsHeadersModel->current_www = $this->hostWww($data); // если редирект настроен
+		if (strlen($data)) {
+			  $h = new self;
+			  $h->domain_id = $model->id;
+			  $h->host = $this->hostWww($data);
+			  $h->protocol = $this->hostHttp($data);
+			  $h->text = $data;
+			  $h->save();
+			  
+			  $domainsHeadersModel = DomainsHeaders::model()->findByAttributes(array('domain_id' => $this->domain_id)); //$domain_id
+			  //if ( $this->both_www ) {
+			  //var_dump($domainsHeadersModel);
+			      //$domainsHeadersModel->current_www = $this->hostWww($data); // если редирект настроен
+			  //}
+			  //if ( $this->both_http ) {
+			      //$domainsHeadersModel->current_https = $this->hostHttp($data); // если редирект настроен 
+			  //}
+			  
+			  //var_dump($domainsHeadersModel->cur_https);
+			  $domainsHeadersModel->save();
+			  
+			  return $h;
 		}
-		if ( $this->both_http ) {
-		    $domainsHeadersModel->current_https = $this->hostHttp($data); // если редирект настроен 
-		}
-		$domainsHeadersModel->save();
-		
-                return $h;
-            }
         }
 
         return false;
@@ -134,40 +137,41 @@ class Robots extends CActiveRecord {
     */
     private function hostWww($var) {
 	
-
 	// если открывается оба урла  www / без www
-	    preg_match('/[H,h][O,o][S,s][T,t]:[w]{0,3}.+/', $var, $matche);
-	    
-	    if (!empty($matche)) {
-	      $explode = explode(':' , $matche[0]);
-	      if (preg_match('/[w]{3}./', trim ( $explode[1] ), $matche_explode)) {
-		  $host = 'www';
-	      }
-	    }
-	   
+	
+	preg_match('/[H,h][O,o][S,s][T,t]:[w]{0,3}.+/', $var, $matche);
+	$host = 0;
+	
+	if (!empty($matche)) {
+		  $explode = explode(':' , $matche[0]);
+		  if (preg_match('/[w]{3}./', trim ( $explode[1] ), $matche_explode)) {
+		      $host = 'www';
+		  }
+	}
 	return $host;
     }
     
-        /*
+    /*
       Проверяет значение директивы host домен с http или https
       $var [string] -  текст robots 
       return [string]
     */
     private function hostHttp($var) {
 	
-	 // если открывается оба урла  http / https
-	    
-	    preg_match('/[H,h][O,o][S,s][T,t]:[w]{0,3}.+/', $var, $matche);
+	// если открывается оба урла  http / https
+	   
+	preg_match('/[H,h][O,o][S,s][T,t]:[w]{0,3}.+/', $var, $matche);
+	$http = 0;
 	
-	    if (!empty($matche)) {
-		$protocol = parse_url ( $matche[0] ,PHP_URL_SCHEME);
-		if('http' == $protocol or 'https' == $protocol) {
-		    return $protocol;
-		} else {
-		    return '';
-		}
-	    } 
-
+	if (!empty($matche)) {
+		  preg_match('/(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w\.-]*)*\/?/', $matche[0], $protocol);
+		  $protocol = parse_url ( $protocol[0] ,PHP_URL_SCHEME);
+		  if('http' == $protocol or 'https' == $protocol) {
+		      return $protocol;
+		  } else {
+		      return '';
+		  }
+	} 
 	return $http;
 	
     }

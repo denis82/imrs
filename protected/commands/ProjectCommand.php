@@ -14,6 +14,7 @@ class ProjectCommand extends CConsoleCommand {
     	private $robots_http; // флаг для проверки адресов по умолчанию с http/https
 
 	private function getDomain( $model ) {
+		//var_dump($model);
 		if (is_numeric($model)) {
 			$model = Domain::model()->findByPk( $model );
 		}
@@ -96,6 +97,8 @@ class ProjectCommand extends CConsoleCommand {
     			$action = 'action' . $params['action'];
     			$model = $params['model'];
                         var_dump($action);
+			//var_dump($model );
+                        //var_dump($this->$action( $model ));
     			if ($this->$action( $model )) {
     				$this->log('success');
     				$q->success();
@@ -206,8 +209,8 @@ class ProjectCommand extends CConsoleCommand {
     	}
 
     	$domainsHeadersModel =  DomainsHeaders::model()->download( $model );
-    	$this->robots_www = $domainsHeadersModel->both_www;
-    	$this->robots_http = $domainsHeadersModel->both_http;
+    	//$this->robots_www = $domainsHeadersModel->both_www;
+    	//$this->robots_http = $domainsHeadersModel->both_http;
 
 		return true;
     }
@@ -216,78 +219,78 @@ class ProjectCommand extends CConsoleCommand {
     	if (!($model = $this->getDomain( $model ))) {
     		return false;
     	}
-	$robotsModel = Robots::model();
-	$robotsModel->both_www = $this->robots_www;
-	$robotsModel->both_http = $this->robots_http;
+	//$robotsModel = Robots::model();
+	//$robotsModel->both_www = $this->robots_www;
+	//$robotsModel->both_http = $this->robots_http;
     	Robots::model()->download( $model );
 
 		return true;
     }
 
     public function actionDomainSitemap( $model ) {
-//     	if (!($model = $this->getDomain( $model ))) {
-//     		return false;
-//     	}
-//     	
-// 
-//         $robots = Robots::model()->last( $model );
-// 
-//         $transaction = Yii::app()->db->beginTransaction();
-// 
-//         if ($robots) {
-//             $sitemaps = $robots->sitemaps();
-//             $default_sitemap = $model->url() . '/sitemap.xml';
-// 
-//             if (count($sitemaps) and in_array($default_sitemap, $sitemaps)) {
-//                 $in_robots = true;
-//             }
-// 
-//             if (!in_array($default_sitemap, $sitemaps)) {
-//             	$sitemaps[] = $default_sitemap;
-//             }
-// 
-//             $context = stream_context_create(
-//                 array(
-//                     'http' => array(
-//                         'follow_location' => false
-//                     )
-//                 )
-//             );
-// 
-//             for ($j = 0; $j < count($sitemaps); $j++) {
-//             	$sitemap_url = $sitemaps[$j];
-//             	
-//             	if ($this->queue) {
-//             		$this->queue->ping();
-//             	}
-// 
-//                 $text = @file_get_contents($sitemap_url, false, $context);
-// 
-//                 if ($text) {
-// 					if (strpos($text, '<?xml') === false) {
-// 						$ungz = @gzdecode($text);
-// 
-// 						if ($ungz) {
-// 							$text = $ungz;
-// 						}
-// 					}
-// 
-//                     $data = new DomainsSitemap;
-//                     $data->domain_id = $model->id;
-//                     $data->url = $sitemap_url;
-//                     $data->robots = intval($in_robots or $sitemap_url != $default_sitemap);
-//                     $data->text = $text;
-//                     $data->save();
-//                 }
-//             }
-// 	    
-//             $sm = new SitemapDownloader( $sitemaps );
-//             if ($load_result = $sm->load()) {
-//                 $sm->save( $model->id );
-//             }
-//         }
-// 
-// 		$transaction->commit();
+    	if (!($model = $this->getDomain( $model ))) {
+    		return false;
+    	}
+    	
+
+        $robots = Robots::model()->last( $model );
+
+        $transaction = Yii::app()->db->beginTransaction();
+
+        if ($robots) {
+            $sitemaps = $robots->sitemaps();
+            $default_sitemap = $model->url() . '/sitemap.xml';
+
+            if (count($sitemaps) and in_array($default_sitemap, $sitemaps)) {
+                $in_robots = true;
+            }
+
+            if (!in_array($default_sitemap, $sitemaps)) {
+            	$sitemaps[] = $default_sitemap;
+            }
+
+            $context = stream_context_create(
+                array(
+                    'http' => array(
+                        'follow_location' => false
+                    )
+                )
+            );
+
+            for ($j = 0; $j < count($sitemaps); $j++) {
+            	$sitemap_url = $sitemaps[$j];
+            	
+            	if ($this->queue) {
+            		$this->queue->ping();
+            	}
+
+                $text = @file_get_contents($sitemap_url, false, $context);
+
+                if ($text) {
+					if (strpos($text, '<?xml') === false) {
+						$ungz = @gzdecode($text);
+
+						if ($ungz) {
+							$text = $ungz;
+						}
+					}
+
+                    $data = new DomainsSitemap;
+                    $data->domain_id = $model->id;
+                    $data->url = $sitemap_url;
+                    $data->robots = intval($in_robots or $sitemap_url != $default_sitemap);
+                    $data->text = $text;
+                    $data->save();
+                }
+            }
+	    
+            $sm = new SitemapDownloader( $sitemaps );
+            if ($load_result = $sm->load()) {
+                $sm->save( $model->id );
+            }
+        }
+
+		$transaction->commit();
 
 		return true;
     }
@@ -1212,6 +1215,7 @@ class ProjectCommand extends CConsoleCommand {
 
     public function actionProjectYastruct( $model ) {
     	if (!($model = $this->getProject( $model ))) {
+	      //var_dump ($this->getProject( $model ));
     		return false;
     	}
 

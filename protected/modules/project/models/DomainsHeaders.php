@@ -2,6 +2,9 @@
 
 class DomainsHeaders extends CActiveRecord {
     
+    const SUCCESS = 200;
+    const REDIRECT = 301;
+    
     public $both_www = false;
     public $both_http = false;
     private $cur_https = '';
@@ -74,6 +77,17 @@ class DomainsHeaders extends CActiveRecord {
             $h->www = $this->getStatusWww($model->domain); // настройка редиректа www/ без www  - [boolean]
             $h->https = $this->getStatusHost($model->domain); // настройка редиректа  https / без https  - [boolean]
             $h->current_www = $this->cur_www; // если редирект настроен
+            
+                  
+/*                  $file = 'foo.txt';
+// Открываем файл для получения существующего содержимого
+$current = file_get_contents($file);
+// Добавляем нового человека в файл
+$current .= $this->cur_https . "\n";
+// Пишем содержимое обратно в файл
+file_put_contents($file, $current);
+   */   
+            
             $h->current_https = $this->cur_https; // если редирект настроен 
             $h->save();
 
@@ -135,7 +149,7 @@ class DomainsHeaders extends CActiveRecord {
       preg_match('/[a-z]+:\/\/[w]{3}./', trim ( $url ), $matches);
       if (empty($matches)) {  // без www
 	  $pattern = '/:\/\//';
-	  $replacement = '//:www.';
+	  $replacement = '://www.';
 	  $with_www = preg_replace($pattern, $replacement, $url);
 	  $without_www = $url;
       } else {  // c www
@@ -145,21 +159,28 @@ class DomainsHeaders extends CActiveRecord {
 	  $with_www = $url;
 	  $this->cur_www = 'www';
       }
-      
-      if ( 200 == $this->getStatus($without_www) and 200 == $this->getStatus($with_www) ) {
-	    $this->both_www = true;
-      }
-      
-      if ( $this->wwwStatus($without_www) != $this->wwwStatus($with_www) ) {
-	    return true;
+      $getStatusWithoutWww = $this->getStatus($without_www);
+      $getStatusWithWww = $this->getStatus($with_www);
+      if ( (self::REDIRECT == $getStatusWithWww and self::SUCCESS == $getStatusWithoutWww) ||
+	     (self::SUCCESS == $getStatusWithWww and self::REDIRECT == $getStatusWithoutWww) ) {
+			return true;
+		
       } else {
-	    return false;
+	  return false;
       }
+      
+      //var_dump($this->getStatus($without_www). "!=" .$this->getStatus($with_www));
+      //if ( 200 == $this->getStatus($without_www) and 200 == $this->getStatus($with_www) ) {
+//       if ( $this->wwwStatus($without_www) != $this->wwwStatus($with_www) ) {
+// 	    return true;
+//       } else {
+// 	    return false;
+//       }
 
     }
 
     /*
-      Проверяет код статуса.
+      Сомнительнительный метод
       $url [string] - домен.
       return [bool] - статус
     */
@@ -176,21 +197,13 @@ class DomainsHeaders extends CActiveRecord {
 	    curl_close($curl);
 	}
 	
+	//var_dump($out);
 	if (preg_match("!Location: (.*)!", $out, $matches)) {
+	
 	    return true;
 	} else {
 	    return false;
 	} 
-/*	  
-	  if ($out) {
-		  $m = array();
-
-		  if (preg_match( "#HTTP/[0-9\.]+\s+([0-9]+)#", $out, $m )) {
-		      $res = intval($m[1]);
-		  }
-	  } */
-	
-	  //return $res;
         
     }
     
@@ -204,12 +217,23 @@ class DomainsHeaders extends CActiveRecord {
     private function getStatusHost($url) {
       
       $arrParseUrl = parse_url($url);
+      
+//                         $file = 'foo.txt';
+// // Открываем файл для получения существующего содержимого
+// $current = file_get_contents($file);
+// // Добавляем нового человека в файл
+// $current .= $arrParseUrl['scheme'] . "!!!\n";
+// // Пишем содержимое обратно в файл
+// file_put_contents($file, $current);
+      
+           
+      
       $this->cur_https = $arrParseUrl['scheme'];
       $explode = explode('://' , $url);
 
-      if ( 200 == $this->getStatus('https://' . $explode[1]) and 200 == $this->getStatus('http://' . $explode[1]) ) {
-	  $this->both_http = true;
-      }
+//       if ( 200 == $this->getStatus('https://' . $explode[1]) and 200 == $this->getStatus('http://' . $explode[1]) ) {
+// 	  $this->both_http = true;
+//       }
       if ( $this->wwwStatus('https://' . $explode[1]) != $this->wwwStatus( 'http://' . $explode[1]) ) {
 	    return true;
       } else {
@@ -220,6 +244,7 @@ class DomainsHeaders extends CActiveRecord {
     
     private function getStatus($url){
 	
+	$status = 0;
 	$context = stream_context_create(
             array(
                 'http' => array(
@@ -227,17 +252,47 @@ class DomainsHeaders extends CActiveRecord {
                 )
             )
         );
-	@file_get_contents($url, false, $context);
-	if (is_array($http_response_header)) {
-	    foreach ($http_response_header as $h) {
-		$m = array();
-
-		if (preg_match( "#HTTP/[0-9\.]+\s+([0-9]+)#", $h, $m )) {
-		    $status = intval($m[1]);
-		    break;
-		}
+        //var_dump($url); echo '<br>';
+	$out = false;
+	if( $curl = curl_init() ) {
+	    curl_setopt($curl,CURLOPT_URL,$url);
+	    curl_setopt($curl,CURLOPT_FOLLOWLOCATION, true);
+	    curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
+	    curl_setopt($curl,CURLOPT_NOBODY,true);
+	    curl_setopt($curl,CURLOPT_HEADER,true);
+	    curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
+	    curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+	    $out = curl_exec($curl);
+	    if($out === false)
+	    {
+		echo 'Ошибка curl: ' . curl_error($curl);
 	    }
+	    $httpcode = curl_getinfo($curl,CURLINFO_HTTP_CODE );
+	    curl_close($curl);
 	}
+	
+	
+	//@file_get_contents($url, false, $context);
+	//echo '<pre>'; var_dump($httpcode); echo '</pre>';
+	$status = $httpcode;
+	//echo '<pre>'; var_dump($out); echo '</pre>';
+	//var_dump($out); echo '<br>';
+	if (preg_match( "#HTTP/[0-9\.]+\s+([0-9]+)#", $out, $m )) {
+		    $status = intval($m[1]);
+	}
+// 	$http_response_header = $out;
+// 	if (is_array($http_response_header)) {
+// 	    
+// 	    foreach ($http_response_header as $h) {
+// 		$m = array();
+// 
+// 		if (preg_match( "#HTTP/[0-9\.]+\s+([0-9]+)#", $h, $m )) {
+// 		    $status = intval($m[1]);
+// 		    break;
+// 		}
+// 	    }
+// 	}
+	//var_dump($status); echo '<br>';
 	return $status;
     }
     

@@ -92,6 +92,63 @@
 						</div>
 					</div>
 
+					
+					<div class="sidebar-category sidebar-category-visible">
+						<div class="category-content no-padding">
+							<ul class="navigation navigation-main navigation-accordion">
+								<li>
+									<a href="#"><i class="icon-cube3"></i> <span>Аудиты</span></a>
+									<ul>
+										<li>
+											<a href="#">Кожевников</a>
+											<ul>
+												<li><a href="task_manager_grid.html">Task grid</a></li>
+												<li><a href="task_manager_list.html">Task list</a></li>
+												<li><a href="task_manager_detailed.html">Task detailed</a></li>
+												
+												<li>
+													<a href="#"><span>Кожевников</span></a>
+													<ul>
+														<li><a href="mail_list.html">Mail list</a></li>
+														<li><a href="mail_list_detached.html">Mail list (detached)</a></li>
+														<li><a href="mail_read.html">Read mail</a></li>
+														<li><a href="mail_write.html">Write mail</a></li>
+														<li class="navigation-divider"></li>
+														<li><a href="chat_layouts.html">Chat layouts</a></li>
+														<li><a href="chat_options.html">Chat options</a></li>
+													</ul>
+												</li>
+												
+												
+											</ul>
+										</li>
+										<li>
+											<a href="#">Inbox</a>
+											<ul>
+												<li><a href="mail_list.html">Mail list</a></li>
+												<li><a href="mail_list_detached.html">Mail list (detached)</a></li>
+												<li><a href="mail_read.html">Read mail</a></li>
+												<li><a href="mail_write.html">Write mail</a></li>
+												<li class="navigation-divider"></li>
+												<li><a href="chat_layouts.html">Chat layouts</a></li>
+												<li><a href="chat_options.html">Chat options</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="#">Search</a>
+											<ul>
+												<li><a href="search_basic.html">Basic search results</a></li>
+												<li><a href="search_users.html">User search results</a></li>
+												<li><a href="search_images.html">Image search results</a></li>
+												<li><a href="search_videos.html">Video search results</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
 					<? 
 
 					if (Yii::app()->user->id):
@@ -103,22 +160,33 @@
 								'items' => Yii::app()->controller->module->getMenu( $this->project )
 							));
 						}
-
+						
+						$this->widget('application.widgets.widgetLeftMenu.leftMenuWidget', array(
+						    'project' => $this->project
+						));
+						
+						/*
 						foreach (Project::model()->findAllByAttributes(array('user_id' => Yii::app()->user->id)) as $p) {
 							if (!$this->project or $this->project->id != $p->id) {
+							  
 								echo $this->renderPartial('//menu/project', array('model' => $p));
-							}
-						}
+							} 
+						}*/
 
 					endif;
 					
 					?>
-
+				 
 				</div>
+				<!--<div class="sidebar-content">
+					<!-- Main navigation -->
+					
+				<!--</div>-->
 			</div>
 			<!-- /main sidebar -->
-
-
+			<!--<div class="sidebar sidebar-main">-->
+				
+			<!--</div>-->
 			<!-- Main content -->
 			<div class="content-wrapper">
 

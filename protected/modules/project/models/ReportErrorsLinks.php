@@ -22,9 +22,9 @@ class ReportErrorsLinks extends CActiveRecord {
         // NOTE: you should only define rules for those attributes that
         // will receive user inputs.
         return array(
-            array('path , domain_id', 'required'),
+            array('domain_id', 'required'),
             array('domain_id', 'numerical', 'integerOnly' => true),
-            array('domain_id', 'safe'),
+            array('domain_id, robots , sitemap,robots_status,sitemap_status', 'safe'),
         );
     }
     
@@ -34,7 +34,9 @@ class ReportErrorsLinks extends CActiveRecord {
     public function attributeLabels() {
         return array(
 			'domain_id' => 'Идентификатор домена',
-			'path' => 'Путь'
+			'path' => 'Путь',
+			'robots' => 'Файл роботс',
+			'sitemap' => 'Файл сайтмап',
         );
     }
 }

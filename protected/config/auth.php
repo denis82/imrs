@@ -41,7 +41,7 @@ return array(
             'moderator',
         ),
         'bizRule' => null,
-        'data' => null
+        'data' => 1
     ),
 );
 

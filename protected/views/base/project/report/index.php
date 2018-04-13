@@ -8,6 +8,7 @@
 
 $dir = Yii::app()->params['report']['path'] . '/';
 $fileExists = file_exists ($dir . $domain->fileName . '.docx');
+
     switch ($domain->status) {
     case $done:  // 
 

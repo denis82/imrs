@@ -178,7 +178,7 @@ class Queue extends CActiveRecord {
 	    	$name = $this->object_type;
 	    	$this->_model = $name::model()->findByPk( $this->object_id );
     	}
-
+	    	//var_dump($this->_model);
     	return $this->_model;
     }
 
@@ -186,7 +186,6 @@ class Queue extends CActiveRecord {
     	$model = $this->getObject();
 
     	$action = self::$STAGE[ $this->stage ];
-    	//var_dump('actionParams:');
         
     	return array(
     		'action' => str_replace('.', '', $action),

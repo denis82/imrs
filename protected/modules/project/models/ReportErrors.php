@@ -48,6 +48,7 @@ class ReportErrors extends CActiveRecord {
 			'date' => 'Дата проверки',
 			'origin_text' => 'Исходный текст',
 			'current_text' => 'Актуальный текст',
+			'diffFile' => 'Отличия в файлах'
         );
     }
 

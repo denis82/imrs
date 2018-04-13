@@ -70,6 +70,7 @@ return array(
             'class' => 'application.components.CAdminPhpAuthManager',
             'defaultRoles' => array('guest'),
         ),
+        
     ),
     'params' => array(
         'cacheDuration' => 3600,

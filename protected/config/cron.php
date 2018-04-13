@@ -22,6 +22,7 @@ return array(
         'application.components.*',
         'application.widgets.*',
         'application.modules.project.models.*',
+        'application.modules.project.components.*',
         'application.modules.seo.components.*',
         'application.modules.wordx.models.*',
         'ext.yii-mail.YiiMailMessage',
@@ -43,6 +44,7 @@ return array(
         'urlManager' => array(
             'urlFormat' => 'path',
             'showScriptName' => false,
+            'baseUrl' => 'http://skipper.su/',
             'rules' => array(
                 'gii' => 'gii',
                 'gii/<controller:\w+>' => 'gii/<controller>',
@@ -74,6 +76,18 @@ return array(
             'class' => 'application.components.CAdminPhpAuthManager',
             'defaultRoles' => array('guest'),
         ),
+        'mail' => array(
+            'class' => 'ext.yii-mail.YiiMail',
+            'transportType'=>'smtp',
+            'transportOptions'=>array(
+                    'host'=>'ssl://smtp.yandex.ru',
+                    'username'=>'seo@seo-experts.com',
+                    'password'=>'987Q123!',
+                    'port'=>'465',
+            ),
+            'viewPath' => 'application.views.mail',
+            'logging' => true,
+        ),
     ),
     'params' => array(
         'cacheDuration' => 3600,
@@ -103,5 +117,19 @@ return array(
         		'key' => 'AIzaSyDxeKbWSsiOMK2WiSunNHFoDdhHk9MbyKU',
         	)
         ),
+        'adminEmail'=>'seo@seo-experts.com',
+ 
+// ERROR-REPORT PARAMS begin   
+ 
+	//'errorsPageEmails'=>[ 'adv@seo-experts.com' , 'kozhevnikov@seo-experts.com' , 'dtelegin.spok@yandex.ru'],
+	
+	'errorsPageEmails'=>['dtelegin.spok@yandex.ru'],
+	'robots' => '/robots.txt', // значения по умолчанию
+	'sitemap' => '/sitemap.xml', // значения по умолчанию
+	'pathToDiffPages' => '/var/www/skipper.su/diffPages/',
+	'pathToDiffList' => 'files/diffPages/',
+	'pathForPageErrorLogging' => '/var/www/skipper.su/cronlog/errorReport',
+
+// ERROR-REPORT PARAMS end	
     ),
 );

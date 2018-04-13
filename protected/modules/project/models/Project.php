@@ -71,7 +71,7 @@ class Project extends CActiveRecord {
             'host' => 'Адрес сайта (начиная с http:// или https://)',
             'keywords' => 'Ключевые слова',
             'regions' => 'Регионы Яндекса (выберите из списка один)',
-            'error_control' => 'Контроль ошибок',
+            'error_control' => 'Включить проверку на ошибки',
             'audit_control' => 'Запустить аудит',
             'alltags' => 'Введите ключевые фразы (каждая в новой строке)',
 			'wordstat_date' => 'Wordstat Date'
