@@ -53,14 +53,30 @@ class ReportController extends CSiteController
     
     public function actionTest() {
 
-//         //$projectModel = CrawlerPage::model()->findAll('domain_id=60056') ;
+	  //$projectModel = ProjectsCabinetWords::model()->findAll() ;
+	  $projectModel = ProjectsCabinet::model()->with('projects_cabinet_words')->findAll();
 //         foreach (Sitemap::model()->findAllByAttributes(array('domain_id' => '60053'), array('order' => 'url asc')) as $el) {
 //                 $xml_data['struct']['sitemap'][] = $el->url;
 //         }
 // 
-//         foreach (CrawlerPage::model()->findAllByAttributes(array('domain_id' => '60053'), array('order' => 'url asc')) as $el) {
-//                 $xml_data['struct']['crawler'][] = $el->url;
-//         }
+	$arrayCommon = [];
+        foreach ($projectModel as $el) {
+                
+                
+                $arrayTemp = [];
+                foreach($el->projects_cabinet_words as $res) {
+			//var_dump($res->url);
+			if( !in_array($res->url, $arrayTemp) and '' != $res->url and '/' != $res->url) { 
+				
+				$arrayTemp[] = $res->url;
+			}
+                }
+                $arrayCommon[$el->id] = $arrayTemp;
+                
+        }
+        echo "<pre>"; 
+        var_dump($arrayCommon);
+                echo "</pre>";
 // 
 //         $check = YandexStructureCheck::model()->findByAttributes(array('domain_id' => '60053'), array('order' => 'id desc'));
 //         foreach (YandexStructure::model()->findAllByAttributes(array('check_id' => $check->id), array('order' => 'url asc')) as $el) {
@@ -72,7 +88,7 @@ class ReportController extends CSiteController
        // file_get_contents("http://www.yiiframework.com");
        // var_dump($http_response_header);
         echo "<pre>";
-        var_dump($xml_data);
+        //var_dump($projectModel);
         echo "</pre>";
     }
     

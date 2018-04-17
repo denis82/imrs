@@ -24,6 +24,7 @@ return array(
         'application.components.*',
         'application.widgets.*',
         'application.modules.seo.components.*',
+        'application.modules.project.components.*',
         'ext.yii-mail.YiiMailMessage',
     ),
     'modules' => array(
@@ -58,23 +59,37 @@ return array(
         'urlManager' => array(
             'urlFormat' => 'path',
             'showScriptName' => false,
+            
             'rules' => array(
                 //'gii' => 'gii',
                 //'gii/<controller:\w+>' => 'gii/<controller>',
                 //'gii/<controller:\w+>/<action:\w+>' => 'gii/<controller>/<action>',
                 'audit/<id:\d+>' => '/report',
                 '<module:\w+>/<controller:\w+>/<action:\w+>/<id:.*>' => '<module>/<controller>/<action>',
-				'<module:\w+>/<controller:\w+>/<action:\w+>' => '<module>/<controller>/<action>',
+		'<module:\w+>/<controller:\w+>/<action:\w+>' => '<module>/<controller>/<action>',
                 '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
                 '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
             ),
         ),
         'db' => include dirname(__FILE__) . DIRECTORY_SEPARATOR . '../../common/config/db.php',
+        
+                
+        'dbadvert' => array(
+            'connectionString' => 'mysql:host=136.243.24.131;dbname=cabinet',
+            'username'         => 'cabinet',
+            'password'         => 'GVLwDBJaFAdf3LSz',
+            'class'            => 'CDbConnection',          // DO NOT FORGET THIS!
+            'emulatePrepare' => true,
+            'charset' => 'utf8',
+            'tablePrefix' => 'seo_',
+        ),
+        
         'errorHandler' => array(
             'errorAction' => 'site/error',
         ),
         'log' => array(
             'class' => 'CLogRouter',
+
             'routes' => array(
                 array(
                     
@@ -104,6 +119,11 @@ return array(
 					'isEvalEnabled' => false,
 					*/
                 ),
+                array(
+                    'class'=>'CFileLogRoute',
+                    'levels'=>'trace, info',
+                    'categories'=>'application.*',
+                ),
             ),
         ),
         'request' => array(
@@ -123,7 +143,8 @@ return array(
                     'password'=>'987Q123!',
                     'port'=>'465',
             ),
-            'viewPath' => 'application.views.mail',   
+            'viewPath' => 'application.views.mail',
+            'logging' => true,
         ),
     ),
     'params' => array(
@@ -151,5 +172,11 @@ return array(
         		'key' => 'AIzaSyDxeKbWSsiOMK2WiSunNHFoDdhHk9MbyKU',
         	)
         ),
+        'adminEmail'=>'dtelegin.spok@yandex.ru',
+	'errorsPageEmails'=>['dtelegin.spok@yandex.ru'],
+	'robots' => '/robots.txt',
+	'sitemap' => '/sitemap.xml',
+	'pathForPageErrorLogging' => '/var/www/skipper.su/cronlog/errorReport',
+	'pathToDiffList' => 'files/diffPages/',
     ),
 );
