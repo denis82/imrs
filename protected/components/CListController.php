@@ -4,9 +4,25 @@ class CListController extends CSiteController {
 
     public $order = "id asc";
 
+    
+    
+            public function accessRules()
+    {
+        return array(
+            array('allow',
+                'actions'=>array('index'),
+                'roles'=>array('administrator'),
+            ),
+            array('deny',  // deny all users
+		'actions'=>array('index'),
+                'users'=>array('*'),
+
+            ),
+        );
+    }
+    
     public function actionIndex(){
 		//die('INDEX CONTROLLER');
-	
         $this->title = $this->name;
         $this->description = $this->description;
         $this->breadcrumbs[] = $this->title;
