@@ -32,7 +32,7 @@ class CheckErrors
 		}
 		
 		foreach ( $arrayWithModelProjects as $project ) {
-		    
+
 			if ( !$project->host ) {
 				continue;
 			}
@@ -46,6 +46,8 @@ class CheckErrors
 			if ( !$resulltAvailable ) {
 				continue;
 			}
+			
+			
 			$this->mergeArray();
 			$this->startRequests();
 			$this->url = false;
@@ -71,13 +73,14 @@ class CheckErrors
 			
 			$this->createNewPageNote($file ,$textPageHash);
 			$equalResult = $this->checkEqual($file ,$textPageHash); // 
+
 			if ( !$equalResult ) {
 				  $this->errorRecord($file ,$textPageHash);
 				  $this->listErrorPages[$file] = $this->url . $file;
 			}
 			$this->reportErrors = null;
 		}
-		var_dump($this->targetFiles);
+		
 		if ( !empty($this->listErrorPages) ) {
 			$gitHandler = new GitHandler($this->domain);
 			if( !$gitHandler->start() ) {
@@ -88,6 +91,7 @@ class CheckErrors
 		if ( !empty($this->listErrorPages) || !empty($this->listBadStatusPages)) {
 			$this->emailSender();
 		}
+		$this->targetFiles = [];
 		$this->listErrorPages = [];
 		$this->listBadStatusPages = [];
 
@@ -204,7 +208,6 @@ class CheckErrors
 		$textPage = str_replace("\n", '', $textPage);
 		$textPage = preg_replace('/[\x00-\x1F\x7F]/u', '', $textPage);
 		$textPage = strip_tags($textPage);
-		
 		$textPage = md5( $textPage);
 		
 		return $textPage;

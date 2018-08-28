@@ -135,7 +135,9 @@ class IndexController extends CSiteController
 	$errorForm->robots = Yii::app()->params['robots'];
 	$errorForm->sitemap = Yii::app()->params['sitemap'];
         $errorForm->project = $model;
-        
+        //var_dump($errorForm->getErrors());
+		    //var_dump($_POST);
+		    //die();
         if (isset($_POST[ get_class($errorForm) ]) and isset($_POST[ get_class($model)])) {
 	
 		$errorForm->attributes = $_POST[ get_class($errorForm) ];

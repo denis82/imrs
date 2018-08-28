@@ -197,7 +197,7 @@ class GitHandler {
 	}
 	
 	public function gitDiff() {
-		var_dump($this->dirPath);		
+		//var_dump($this->dirPath);		
 		$result = shell_exec('git -C ' . $this->dirPath . ' diff'); 
 		
 		return $result;

@@ -44,7 +44,7 @@ return array(
         'urlManager' => array(
             'urlFormat' => 'path',
             'showScriptName' => false,
-            'baseUrl' => 'http://skipper.su/',
+            'baseUrl' => 'http://imrs.ru/',
             'rules' => array(
                 'gii' => 'gii',
                 'gii/<controller:\w+>' => 'gii/<controller>',
@@ -126,9 +126,9 @@ return array(
 	'errorsPageEmails'=>['dtelegin.spok@yandex.ru'],
 	'robots' => '/robots.txt', // значения по умолчанию
 	'sitemap' => '/sitemap.xml', // значения по умолчанию
-	'pathToDiffPages' => '/var/www/skipper.su/diffPages/',
+	'pathToDiffPages' => '/var/www/imrs.ru/diffPages/',
 	'pathToDiffList' => 'files/diffPages/',
-	'pathForPageErrorLogging' => '/var/www/skipper.su/cronlog/errorReport',
+	'pathForPageErrorLogging' => '/var/www/imrs.ru/cronlog/errorReport',
 
 // ERROR-REPORT PARAMS end	
     ),

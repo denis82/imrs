@@ -164,7 +164,7 @@ return array(
 	'errorsPageEmails'=>['dtelegin.spok@yandex.ru'],
 	'robots' => '/robots.txt',
 	'sitemap' => '/sitemap.xml',
-	'pathForPageErrorLogging' => '/var/www/skipper.su/cronlog/errorReport',
+	'pathForPageErrorLogging' => '/var/www/imrs.ru/cronlog/errorReport',
 	'pathToDiffList' => 'files/diffPages/',
     ),
 );

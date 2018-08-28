@@ -139,22 +139,22 @@
                             <tr>
                                 <td>Ежемесячно просмотров страниц:</td>            
                                 <td><?= $hostinfo->limp; ?></td>
-                                <td>http://counter.yadro.ru/logo;skipper.su?29.1</td>
+                                <td>http://counter.yadro.ru/logo;imrs.ru?29.1</td>
                             </tr>
                             <tr>
                                 <td>Ежемесячно уникальный посетителей:</td>            
                                 <td><?= $hostinfo->limv; ?></td>
-                                <td>http://counter.yadro.ru/logo;skipper.su?29.1</td>
+                                <td>http://counter.yadro.ru/logo;imrs.ru?29.1</td>
                             </tr>
                             <tr>
                                 <td>Ежедневно просмотров страниц:</td>            
                                 <td><?= $hostinfo->lidp; ?></td>
-                                <td>http://counter.yadro.ru/logo;skipper.su?29.1</td>
+                                <td>http://counter.yadro.ru/logo;imrs.ru?29.1</td>
                             </tr>
                             <tr>
                                 <td>Ежедневно уникальных посетителей:</td>            
                                 <td><?= $hostinfo->lidv; ?></td>
-                                <td>http://counter.yadro.ru/logo;skipper.su?29.1</td>
+                                <td>http://counter.yadro.ru/logo;imrs.ru?29.1</td>
                             </tr>
                             <tr>
                                 <td>Страницы в индексе:</td>
