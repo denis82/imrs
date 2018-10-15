@@ -73,6 +73,7 @@ class DomainsHeaders extends CActiveRecord {
             $h->if_modified_since = intval( $this->checkIfModifiedSince( $model->url() ) );
             $h->www = $this->getStatusWww($model->domain); // настройка редиректа www/ без www  - [boolean]
             $h->https = $this->getStatusHost($model->domain); // настройка редиректа  https / без https  - [boolean]
+            $h->slash = $this->getStatusSlash($model->domain); // настройка редиректа  https / без https  - [boolean]
             $h->current_www = $this->cur_www; // если редирект настроен
             $h->current_https = $this->cur_https; // если редирект настроен 
             $h->save();
@@ -239,6 +240,40 @@ class DomainsHeaders extends CActiveRecord {
 	    }
 	}
 	return $status;
+    }
+    
+            /*
+      Проверяет настроен ли редирект Slash 
+      $url [string] - домен.
+      return [bool]
+    */
+    
+    public function getStatusSlash($url) {
+      
+      /*$arrParseUrl = parse_url($url);
+      $this->cur_https = $arrParseUrl['scheme'];
+      $explode = explode('://' , $url);
+
+      if ( 200 == $this->getStatus('https://' . $explode[1]) and 200 == $this->getStatus('http://' . $explode[1]) ) {
+	  $this->both_http = true;
+      }
+      if ( $this->wwwStatus('https://' . $explode[1]) != $this->wwwStatus( 'http://' . $explode[1]) ) {
+	    return true;
+      } else {
+	    return false;
+      }
+      */
+      
+      if( $curl = curl_init() ) {
+	    curl_setopt($curl,CURLOPT_URL,$url);
+	    curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
+	    curl_setopt($curl,CURLOPT_NOBODY,true);
+	    curl_setopt($curl,CURLOPT_HEADER,true);
+	    curl_setopt($curl,CURLOPT_AUTOREFERER,true);
+	    $out = curl_exec($curl);
+	    curl_close($curl);
+	}
+      return $this->getStatus($url);
     }
     
 }

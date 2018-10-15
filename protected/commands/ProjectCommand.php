@@ -1336,6 +1336,38 @@ class ProjectCommand extends CConsoleCommand {
 		return true;
     }
 
+    
+    public function actionSlashTest( ) {
+	
+	$domainsHeadersModel =  DomainsHeaders::model()->getStatusSlash("https://seo-experts.com/service/");
+	
+// 	if (!($model = $this->getDomain( $model ))) {
+// 	    return false;
+//     	}
+//     	$crawler = YandexStructure::model()->findAllByAttributes(
+//         	//array('domain_id' => $model->id, 'status' => 0), 
+//         	array('domain_id' => $model->id, 'status' => 0), 
+//         	array('order' => 'url asc')
+//         );
+//     	//var_dump('count = ' . count($crawler));
+//         if (count($crawler)) {
+//             foreach ($crawler as $s) {
+//             	$this->log( '#' . $s->id . ' ' . $s->url );
+// 
+//             	if ($this->queue) {
+//             		$this->queue->ping();
+//             	}
+//                 $s->checkStatus();
+//             	$this->log( '#' . $s->id . ' checked' );
+// 
+//                 /* pause 1 second */
+// 
+//                 sleep(1);
+//             }
+//         }
+	    var_dump($domainsHeadersModel);
+		return true;
+    }
 
 }
 

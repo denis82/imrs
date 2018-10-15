@@ -360,6 +360,23 @@ class InternalController extends CSiteController
         ));
     }
 
+    public function actionDouble($id){
+        $this->project = $model = Project::model()->findByPk($id);
+        $this->description = 'Дубли страниц';
+    	$this->genBreadcrumbs();
+    	$modelDomainsHeaders = DomainsHeaders::model()->findByAttributes(array('domain_id'=>$model->domain_id));
+      var_dump($modelDomainsHeaders->https);
+    	//$last_update = Queue::model()->findStageForProject( $model, 11 );
+
+        $this->render('project.internal.double', array(
+        	//"last_update" => $last_update ? $last_update->updated_date : null,
+        	//"model" => $model,
+        	"https" => $modelDomainsHeaders->https,
+        	"www" => $modelDomainsHeaders->www,
+        	"pages" => [],
+        ));
+    }
+    
     public function actionLoad( $id, $method )
     {
     	$error_code = 423;
