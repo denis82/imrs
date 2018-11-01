@@ -2767,7 +2767,7 @@ $_br = '<w:p w14:paraId="3F7F6C20" w14:textId="77777777" w:rsidR="002F5D30" w:rs
 				</w:t>
 			</w:r>
 			<w:r>
-				<w:t xml:space="preserve">Формальными признаками сайта являются: Тематический индекс цитируемости (ТИЦ) от Яндекс, Google Page Rank (ранг страницы) от Google, Рейтинг домена (DR - domain rating) и рейтинг адреса (UR - URL rating) от Ahrefs.com, Alexa Rating, Регистрация сайта в Яндекс Каталоге и регистрация сайта в DMOZ.
+				<w:t xml:space="preserve">Формальными признаками сайта являются: Тематический индекс цитируемости (ИКС) от Яндекс, Google Page Rank (ранг страницы) от Google, Рейтинг домена (DR - domain rating) и рейтинг адреса (UR - URL rating) от Ahrefs.com, Alexa Rating, Регистрация сайта в Яндекс Каталоге и регистрация сайта в DMOZ.
 				</w:t>
 			</w:r>
 		</w:p>
@@ -2784,7 +2784,7 @@ $_br = '<w:p w14:paraId="3F7F6C20" w14:textId="77777777" w:rsidR="002F5D30" w:rs
 					<w:color w:val="FF0000"/>
 					<w:lang w:val="en-US"/>
 				</w:rPr>
-				<w:t>тИЦ
+				<w:t>ИКС
 				</w:t>
 			</w:r>
 			<w:r w:rsidRPr="00115B85">
